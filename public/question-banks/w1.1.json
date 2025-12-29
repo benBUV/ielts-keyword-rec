@@ -1,0 +1,51 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Questions about globalization",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>1. The presenter states that...</p><ol type=\"a\"><li>globalization increases the flow of goods, services, and ideas across borders.</li><li>globalization creates widespread economic growth via technology.</li></ol>",
+      "keywords": ["increases", "goods", "services", "ideas", "borders"],
+      "optionalKeywords": ["presenter", "states"]
+    },
+        {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>2.  According to the presenter...</p><ol type=\"a\"><li>globalization is mostly good for society.</li><li>globalization has both benefits and downsides for society.</li></ol>",
+      "keywords": ["benefits", "downsides"],
+      "optionalKeywords": ["presenter", "according"]
+    },
+        {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>3. One benefit mentioned is that...</p><ol type=\"a\"><li>globalization creates wealth through international finance.</li><li>globalization creates economic growth through access to labor and resources.</li></ol>",
+      "keywords": ["creates", "growth", "labor", "resources"],
+      "optionalKeywords": ["benefit", "mentioned"]
+    },
+        {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>4. The speaker also notes that...</p><ol type=\"a\"><li>globalization increases international cooperation.</li><li>globalization causes international conflict.</li></ol>",
+      "keywords": ["increases", "international", "cooperation"],
+      "optionalKeywords": ["speaker", "notes"]
+    },
+        {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>5. On the one hand, this is due to...</p><ol type=\"a\"><li>greenhouse emissions from increased transportation.</li><li>infrastructure development lowering travel times.</li></ol>",
+      "keywords": ["greenhouse", "emissions", "transportation"],
+      "optionalKeywords": ["one", "hand"]
+    },
+        {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>6. A further problem is......</p><ol type=\"a\"><li>the deforestation caused by infrastructure development.</li><li>the deforestation as a result of soy bean farming.</li></ol>",
+      "keywords": ["increases", "goods", "services", "ideas", "borders"],
+      "optionalKeywords": ["presenter", "states"]
+    }
+  ]
+}
