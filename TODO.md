@@ -1,0 +1,58 @@
+# Task: Convert IELTS Speaking App to Speech Recognition Keyword Matching App
+
+## Plan
+- [x] Step 1: Update Type Definitions
+  - [x] Add `keywords` array field to Question interface
+  - [x] Make `media` field optional in Question interface
+  - [x] Add `isCorrect` boolean field to Recording interface
+  - [x] Add `matchedKeywords` and `missedKeywords` arrays to Recording interface
+- [x] Step 2: Create Keyword Matching Utility
+  - [x] Create keyword matching function in lib/keyword-matcher.ts
+  - [x] Handle case-insensitive matching
+  - [x] Handle word variations (basic stemming support)
+- [x] Step 3: Update Question Banks
+  - [x] Add keywords to all questions in default.ts
+  - [x] Add keywords to all questions in technology.ts
+  - [x] Add keywords to all questions in education.ts
+  - [x] Add keywords to all questions in environment.ts
+  - [x] Make media field optional
+  - [x] Add keywords to sample-questions.ts
+- [x] Step 4: Update QuestionDisplay Component
+  - [x] Remove all video/audio playback logic
+  - [x] Remove YouTube player integration
+  - [x] Display text question prominently
+  - [x] Remove media error handling
+  - [x] Simplify component to text-only display
+  - [x] Show keywords as hints
+- [x] Step 5: Update PracticePage
+  - [x] Remove video-ended logic
+  - [x] Add keyword matching when recording stops
+  - [x] Add visual feedback for correct/incorrect answers
+  - [x] Update recording flow to be manual progression
+  - [x] Remove auto-timing based on video end
+  - [x] Remove video preloading logic
+  - [x] Remove hasAudioEnded state
+  - [x] Remove handleAudioEnded function
+  - [x] Update QuestionDisplay props
+- [x] Step 6: Update ReviewSection Component
+  - [x] Show correctness indicator for each question
+  - [x] Display matched keywords
+  - [x] Display missed keywords
+  - [x] Add visual feedback (checkmarks/X marks)
+  - [x] Add overall score card
+- [x] Step 7: Update README and Documentation
+  - [x] Update app description
+  - [x] Update feature list
+  - [x] Update usage instructions
+- [x] Step 8: Run Lint and Fix Issues
+  - [x] Run npm run lint
+  - [x] Fix all linting errors
+
+## Notes
+- The app already has Web Speech API integration for transcription
+- No external APIs needed for speech recognition
+- Focus on keyword matching algorithm for correctness checking
+- Maintain existing recording and playback functionality
+- Remove all video/audio prompt dependencies
+- "Next Question" button already exists in the UI
+- All changes completed successfully!
