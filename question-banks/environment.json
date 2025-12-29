@@ -1,0 +1,47 @@
+{
+  "id": "environment",
+  "name": "Environment & Nature",
+  "description": "Questions about environmental issues, nature, and sustainability",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "env-q1",
+      "type": "part1",
+      "text": "<p>Do you think people in your country are concerned about environmental issues?</p><ul><li>tets</li></ul>",
+      "keywords": ["people", "country", "concerned", "environmental", "issues"],
+      "optionalKeywords": ["think", "believe", "aware", "care", "worried"]
+    },
+    {
+      "id": "env-q2",
+      "type": "part2",
+      "text": "Describe an environmental problem in your area.",
+      "keywords": ["environmental", "problem", "area"],
+      "optionalKeywords": ["what", "causes", "affects", "solve", "pollution"],
+      "card": {
+        "title": "Describe an environmental problem in your area.",
+        "subtitle": "You should say:",
+        "bullets": [
+          "what the problem is",
+          "what causes it",
+          "how it affects people",
+          "explain what could be done to solve it"
+        ]
+      }
+    },
+    {
+      "id": "env-q3",
+      "type": "part3",
+      "text": "What can individuals do to help protect the environment?",
+      "keywords": ["individuals", "help", "protect", "environment"],
+      "optionalKeywords": ["recycle", "reduce", "conserve", "actions", "responsibility"]
+    },
+    {
+      "id": "env-q4",
+      "type": "part3",
+      "text": "Should governments or individuals be more responsible for environmental protection?",
+      "keywords": ["governments", "individuals", "responsible", "environmental", "protection"],
+      "optionalKeywords": ["should", "more", "both", "role", "duty"]
+    }
+  ]
+}
