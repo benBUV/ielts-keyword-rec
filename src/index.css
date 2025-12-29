@@ -153,6 +153,150 @@ All colors MUST be HSL.
     margin-bottom: 0;
   }
 
+  /* Custom list styles */
+  
+  /* Lowercase letters in parentheses: (a), (b), (c) */
+  .question-html-content .alpha-paren,
+  .question-html-content ol.alpha-paren {
+    list-style-type: none;
+    counter-reset: alpha-counter;
+  }
+
+  .question-html-content .alpha-paren > li,
+  .question-html-content ol.alpha-paren > li {
+    counter-increment: alpha-counter;
+    position: relative;
+  }
+
+  .question-html-content .alpha-paren > li::before,
+  .question-html-content ol.alpha-paren > li::before {
+    content: "(" counter(alpha-counter, lower-alpha) ") ";
+    position: absolute;
+    left: -2rem;
+    width: 2rem;
+    text-align: left;
+  }
+
+  /* Uppercase letters in parentheses: (A), (B), (C) */
+  .question-html-content .alpha-paren-upper,
+  .question-html-content ol.alpha-paren-upper {
+    list-style-type: none;
+    counter-reset: alpha-counter;
+  }
+
+  .question-html-content .alpha-paren-upper > li,
+  .question-html-content ol.alpha-paren-upper > li {
+    counter-increment: alpha-counter;
+    position: relative;
+  }
+
+  .question-html-content .alpha-paren-upper > li::before,
+  .question-html-content ol.alpha-paren-upper > li::before {
+    content: "(" counter(alpha-counter, upper-alpha) ") ";
+    position: absolute;
+    left: -2rem;
+    width: 2rem;
+    text-align: left;
+  }
+
+  /* Roman numerals in parentheses: (i), (ii), (iii) */
+  .question-html-content .roman-paren,
+  .question-html-content ol.roman-paren {
+    list-style-type: none;
+    counter-reset: roman-counter;
+  }
+
+  .question-html-content .roman-paren > li,
+  .question-html-content ol.roman-paren > li {
+    counter-increment: roman-counter;
+    position: relative;
+  }
+
+  .question-html-content .roman-paren > li::before,
+  .question-html-content ol.roman-paren > li::before {
+    content: "(" counter(roman-counter, lower-roman) ") ";
+    position: absolute;
+    left: -2rem;
+    width: 2rem;
+    text-align: left;
+  }
+
+  /* Lowercase letters with period: a. b. c. */
+  .question-html-content .alpha-dot,
+  .question-html-content ol.alpha-dot {
+    list-style-type: lower-alpha;
+  }
+
+  /* Uppercase letters with period: A. B. C. */
+  .question-html-content .alpha-dot-upper,
+  .question-html-content ol.alpha-dot-upper {
+    list-style-type: upper-alpha;
+  }
+
+  /* Roman numerals with period: i. ii. iii. */
+  .question-html-content .roman-dot,
+  .question-html-content ol.roman-dot {
+    list-style-type: lower-roman;
+  }
+
+  /* Roman numerals uppercase with period: I. II. III. */
+  .question-html-content .roman-dot-upper,
+  .question-html-content ol.roman-dot-upper {
+    list-style-type: upper-roman;
+  }
+
+  /* Checkmark bullets */
+  .question-html-content .check-list,
+  .question-html-content ul.check-list {
+    list-style-type: none;
+  }
+
+  .question-html-content .check-list > li::before,
+  .question-html-content ul.check-list > li::before {
+    content: "✓ ";
+    color: hsl(var(--primary));
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  /* Arrow bullets */
+  .question-html-content .arrow-list,
+  .question-html-content ul.arrow-list {
+    list-style-type: none;
+  }
+
+  .question-html-content .arrow-list > li::before,
+  .question-html-content ul.arrow-list > li::before {
+    content: "→ ";
+    color: hsl(var(--primary));
+    margin-right: 0.5rem;
+  }
+
+  /* Star bullets */
+  .question-html-content .star-list,
+  .question-html-content ul.star-list {
+    list-style-type: none;
+  }
+
+  .question-html-content .star-list > li::before,
+  .question-html-content ul.star-list > li::before {
+    content: "★ ";
+    color: hsl(var(--accent));
+    margin-right: 0.5rem;
+  }
+
+  /* Circle bullets (hollow) */
+  .question-html-content .circle-list,
+  .question-html-content ul.circle-list {
+    list-style-type: circle;
+  }
+
+  /* Square bullets */
+  .question-html-content .square-list,
+  .question-html-content ul.square-list {
+    list-style-type: square;
+  }
+
   .question-html-content h1,
   .question-html-content h2,
   .question-html-content h3,
