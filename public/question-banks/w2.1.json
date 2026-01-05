@@ -15,7 +15,7 @@
       "id": "1-q2",
       "type": "part1",
       "text": "<p><strong>Purpose:</strong> You are on social media. You aim to get as many likes as you can on your post.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>This car is insane! It glides like a butterfly, but stings like a BMW! You need this!</li>\n  <li>This car could become hugely successful due to a comfortable ride and top speed of 180kph.</li>\n  <li>Recent reviews have named this car as the next big thing. This time I might believe them.</li>\n</ul>",
-      "keywords": ["insane", "butterfly", "bee"]
+      "keywords": ["insane", "butterfly", "need"]
     },
     {
       "id": "1-q3",
