@@ -1,0 +1,45 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Questions about tone",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p><strong>Purpose:</strong> You are a student giving an academic presentation. You aim to inform the audience of the dangers of Greenwashing.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Many companies could be overstating their environmental credentials.</li>\n  <li>Companies are scamming you, and the facts prove it.</li>\n  <li>So companies trick people into thinking they’re eco-friendly? No surprises there then!</li>\n</ul>",
+      "keywords": ["could", "overstating"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p><strong>Purpose:</strong> You are on social media. You aim to get as many likes as you can on your post.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>This car is insane! It glides like a butterfly, but stings like a BMW! You need this!</li>\n  <li>This car could become hugely successful due to a comfortable ride and top speed of 180kph.</li>\n  <li>Recent reviews have named this car as the next big thing. This time I might believe them.</li>\n</ul>",
+      "keywords": ["insane", "butterfly", "bee"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p><strong>Purpose:</strong> You want parents to stop giving young children mobile phones immediately.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Parents should think carefully before handing out devices.</li>\n  <li>Electronic devices are actively harming our children. We must put a stop to this.</li>\n  <li>Long exposure to digital media may be contributing to delayed language development in pre-school children.</li>\n</ul>",
+      "keywords": ["electronic", "devices", "harming", "children"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p><strong>Purpose:</strong> You want to emphasize the large number of social media advertisements we see.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>So apparently everyone’s checking out 8 ads on social media ads for breakfast?</li>\n  <li>Studies show the average person sees 8 social media adverts before leaving the house.</li>\n  <li>Studies show we are exposed to at least 8 social media ads before we even leave the house.</li>\n</ul>",
+      "keywords": ["exposed", "at least", "even"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p><strong>Purpose:</strong> You aim to inform viewers of a new idea without heavy criticism.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Micro-influencers may have significant effect in niche markets.</li>\n  <li>Micro-influencers are the only marketing strategy that works.</li>\n  <li>Micro-influencers aren’t so ‘micro’ after all.</li>\n</ul>",
+      "keywords": ["may", "significant"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p><strong>Purpose:</strong> You want to promote your company’s environmental efforts professionally, without exaggeration.</p>\n<p><strong>Options:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>It’s official. We’ve gone green!</li>\n  <li>Act now or the environment will suffer. Our company is leading the fight for the planet.</li>\n  <li>Our environmental focus has made real, sustainable changes.</li>\n</ul>",
+      "keywords": ["focus", "real", "changes"]
+    }
+  ]
+}
