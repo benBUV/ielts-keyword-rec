@@ -198,7 +198,7 @@ export const AnswerFeedback = ({
             <p className="text-sm text-muted-foreground">
               {isCorrect 
                 ? quality === 'excellent'
-                  ? "Keep up the amazing work! Your vocabulary is impressive! 🎉"
+                  ? "Keep up the amazing work! 🎉"
                   : "Great job! Try including bonus keywords next time for an excellent rating! ⭐"
                 : "Review the missing keywords and try again on the next question! 💪"
               }

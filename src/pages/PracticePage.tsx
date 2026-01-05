@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { AudioLevelBar } from '@/components/ui/audio-level-bar';
 import { QuestionDisplay } from '@/components/practice/question-display';
+import { VideoPlayer } from '@/components/practice/video-player';
 import { ReviewSection } from '@/components/practice/review-section';
 import { RecorderIndicator } from '@/components/practice/recorder-indicator';
 import { SilenceIndicator } from '@/components/practice/silence-indicator';
@@ -37,6 +38,9 @@ export default function PracticePage() {
   // Check URL parameter for keywords display
   const searchParams = new URLSearchParams(window.location.search);
   const showKeywords = searchParams.get('keywords') !== 'false'; // Show by default unless explicitly set to false
+
+  // Video watching state - track if current question's video has been watched
+  const [hasWatchedVideo, setHasWatchedVideo] = useState(false);
 
   // Ref to track if stop sequence has been triggered for current question
   const hasTriggeredStopRef = useRef(false);
@@ -160,6 +164,12 @@ export default function PracticePage() {
     };
   }, [phase, currentQuestionIndex, recordings.length]);
 
+  // Reset video watched state when question changes
+  useEffect(() => {
+    console.log('🔄 [PracticePage] Question changed, resetting video watched state');
+    setHasWatchedVideo(false);
+  }, [currentQuestionIndex]);
+
   // Restore timer values from localStorage on mount
   useEffect(() => {
     const savedTimer = localStorage.getItem('ielts-practice-timer');
@@ -237,6 +247,12 @@ export default function PracticePage() {
   }, [silenceState, isRecording, hasSpeechDetected, isPaused, pauseRecording]);
 
 
+  // Handler for video completion
+  const handleVideoComplete = useCallback(() => {
+    console.log('✅ [PracticePage] Video completed, revealing question');
+    setHasWatchedVideo(true);
+  }, []);
+
   const handleStartRecording = useCallback(async () => {
     console.log('🎤 [PracticePage] handleStartRecording called');
     try {
@@ -260,10 +276,32 @@ export default function PracticePage() {
       setPhase(AppPhase.Recording);
     } catch (error) {
       console.error('❌ [PracticePage] Recording error:', error);
+      
+      // Determine error type and provide specific message
+      let errorMessage = 'Failed to start recording. Please check microphone permissions.';
+      let errorTitle = 'Recording Error';
+      
+      if (error instanceof Error) {
+        if (error.name === 'NotAllowedError' || error.name === 'PermissionDeniedError') {
+          errorTitle = 'Microphone Permission Denied';
+          errorMessage = 'Please allow microphone access in your browser settings to use this feature.';
+        } else if (error.name === 'NotFoundError' || error.name === 'DevicesNotFoundError') {
+          errorTitle = 'No Microphone Found';
+          errorMessage = 'No microphone detected. Please connect a microphone and try again.';
+        } else if (error.name === 'NotReadableError' || error.name === 'TrackStartError') {
+          errorTitle = 'Microphone In Use';
+          errorMessage = 'Your microphone is already in use by another application. Please close other apps using the microphone.';
+        } else if (error.name === 'SecurityError') {
+          errorTitle = 'Security Error';
+          errorMessage = 'Microphone access is blocked. If this page is embedded, the parent page must allow microphone access with: allow="microphone"';
+        }
+      }
+      
       toast({
-        title: 'Recording Error',
-        description: 'Failed to start recording. Please check microphone permissions.',
+        title: errorTitle,
+        description: errorMessage,
         variant: 'destructive',
+        duration: 6000,
       });
     }
   }, [
@@ -516,6 +554,17 @@ export default function PracticePage() {
                 >
                   {(phase === AppPhase.Preparation || phase === AppPhase.Recording) && (
                     <div className={`transition-opacity duration-300 ${isTransitioning ? 'opacity-50' : 'opacity-100'}`}>
+                      {/* Video Player - shown if question has media */}
+                      {currentQuestion.media && (
+                        <div className="w-full sm:min-w-[600px] sm:w-[70%] sm:max-w-4xl mx-auto px-5 sm:px-0">
+                          <VideoPlayer 
+                            videoUrl={currentQuestion.media}
+                            onVideoComplete={handleVideoComplete}
+                          />
+                        </div>
+                      )}
+                      
+                      {/* Question Display */}
                       <QuestionDisplay 
                         question={currentQuestion} 
                         isRecording={isRecording}
@@ -523,6 +572,7 @@ export default function PracticePage() {
                         currentQuestionIndex={currentQuestionIndex}
                         totalQuestions={sampleQuestions.length}
                         showKeywords={showKeywords}
+                        showPlaceholder={currentQuestion.media ? !hasWatchedVideo : false}
                       />
                     </div>
                   )}
@@ -590,12 +640,15 @@ export default function PracticePage() {
                             "gap-2 min-h-[44px] w-[180px] transition-all duration-200",
                             "hover:opacity-80 active:scale-95"
                           )}
+                          disabled={!isRecording && currentQuestion.media && !hasWatchedVideo}
                           aria-label={
                             isRecording 
                               ? "Stop recording and check answer" 
                               : hasCheckedAnswer 
                                 ? "Try again with a new recording" 
-                                : "Start recording"
+                                : currentQuestion.media && !hasWatchedVideo
+                                  ? "Watch the video to enable recording"
+                                  : "Start recording"
                           }
                         >
                           {isRecording ? (

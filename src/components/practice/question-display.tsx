@@ -9,6 +9,7 @@ interface QuestionDisplayProps {
   isRecording?: boolean;
   isPaused?: boolean;
   showKeywords?: boolean; // Control whether to display keywords
+  showPlaceholder?: boolean; // Show placeholder instead of question (for video watching)
 }
 
 export const QuestionDisplay = ({ 
@@ -18,6 +19,7 @@ export const QuestionDisplay = ({
   isRecording = false,
   isPaused = false,
   showKeywords = true, // Show keywords by default
+  showPlaceholder = false, // Show placeholder for video watching
 }: QuestionDisplayProps) => {
   // Determine if card should be shown (for Part 2 questions during recording)
   const showCard = question.card && question.type === 'part2' && isRecording && !isPaused;
@@ -49,14 +51,23 @@ export const QuestionDisplay = ({
           >
             <div className="w-full sm:min-w-[600px] sm:w-[70%] sm:max-w-4xl mx-auto">
               <div className="bg-primary/5 border-2 border-primary/20 rounded-lg p-6">
-                <div 
-                  className="question-html-content text-xl text-foreground leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: decodedQuestionText }}
-                />
-                {showKeywords && question.keywords && question.keywords.length > 0 && (
+                {showPlaceholder ? (
+                  // Placeholder when video hasn't been watched
+                  <div className="text-2xl font-semibold text-muted-foreground leading-relaxed text-center py-8">
+                    <p className="mb-2">📹</p>
+                    <p>Watch the full video to show question</p>
+                  </div>
+                ) : (
+                  // Actual question content
+                  <div 
+                    className="question-html-content text-xl text-foreground leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: decodedQuestionText }}
+                  />
+                )}
+                {!showPlaceholder && showKeywords && question.keywords && question.keywords.length > 0 && (
                   <div className="mt-4 pt-4 border-t border-primary/20">
                     <p className="text-sm text-muted-foreground mb-2">
-                      💡 Required keywords to include:
+                      💡 Required keywords:
                     </p>
                     <div className="flex flex-wrap gap-2">
                       {question.keywords.map((keyword, index) => (
@@ -70,10 +81,10 @@ export const QuestionDisplay = ({
                     </div>
                   </div>
                 )}
-                {showKeywords && question.optionalKeywords && question.optionalKeywords.length > 0 && (
+                {!showPlaceholder && showKeywords && question.optionalKeywords && question.optionalKeywords.length > 0 && (
                   <div className="mt-3">
                     <p className="text-sm text-muted-foreground mb-2">
-                      ⭐ Bonus keywords for excellent rating:
+                      ⭐ Bonus keywords:
                     </p>
                     <div className="flex flex-wrap gap-2">
                       {question.optionalKeywords.map((keyword, index) => (

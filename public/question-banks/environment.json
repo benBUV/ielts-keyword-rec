@@ -10,7 +10,8 @@
       "type": "part1",
       "text": "<p>Do you think people in your country are concerned about environmental issues?</p><ul><li>tets</li></ul>",
       "keywords": ["people", "country", "concerned", "environmental", "issues"],
-      "optionalKeywords": ["think", "believe", "aware", "care", "worried"]
+      "optionalKeywords": ["think", "believe", "aware", "care", "worried"],
+      "media": "./videos/1.mp4"
     },
     {
       "id": "env-q2",
