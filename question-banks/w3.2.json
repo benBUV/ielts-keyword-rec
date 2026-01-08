@@ -1,0 +1,33 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Questions about tone",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part3",
+      "text": "<p>What problems does 'fake news' cause?</p>",
+      "keywords": ["fake", "news", "mistrust"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part3",
+      "text": "<p>What does the director, Werner Herzog, show in his documentary that isn't 'completely' true?</p>",
+      "keywords": ["open", "doors", "staged"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part3",
+      "text": "<p>Do you think that documentary makers can be completely objective?</p>",
+      "keywords": ["facts", "narrative"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part3",
+      "text": "<p>Is Werner Herzog's documentary fake news, or something different?</p>",
+      "keywords": ["documentary"]
+    }
+  ]
+}
