@@ -8,42 +8,42 @@
     {
       "id": "1-q1",
       "type": "part3",
-      "text": "<p>What does the game Pokemon Go show about algorithms?</p>\n<p><strong>Notes:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Pokemon Go - 2016.</li>\n  <li>Augmented reality placed digital creatures in real locations</li>\n/<li>Millions of users travelled to catch them - changed how people moved / behaved</li>\n</ul>",
+      "text": "<p>What does the game Pokemon Go show about algorithms?</p>\n<p><strong>Notes:</strong></p>\n<ul>\n  <li>Pokemon Go - 2016.</li>\n  <li>Augmented reality placed digital creatures in real locations</li>\n<li>Millions of users travelled to catch them - changed how people moved / behaved</li>\n</ul>",
       "keywords": ["real", "locations", "millions", "moved"],
       "optionalKeywords": ["therefore", "due to", "because", "as a result"]
     },
     {
       "id": "1-q2",
       "type": "part3",
-      "text": "<p>Businesses became involved. What was the effect?</p>\n<p><strong>Notes:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Businesses paid for placement to attract players</li>\n  <li>Problems: overcrowding / environment</li>\n  <li>Ethical concerns: manipulation vs entertainment</li>\n</ul>",
+      "text": "<p>Businesses became involved. What was the effect?</p>\n<p><strong>Notes:</strong></p>\n<ul>\n  <li>Businesses paid for placement to attract players</li>\n  <li>Problems: overcrowding / environment</li>\n  <li>Ethical concerns: manipulation vs entertainment</li>\n</ul>",
       "keywords": ["businesses", "overcrowding", "damage", "manipulation"],
       "optionalKeywords": ["caused", "because of this", "as a result"]
     },
     {
       "id": "1-q3",
       "type": "part3",
-      "text": "<p>Is this effect only limited to games?</p>\n<p><strong>Notes:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Not just games: algorithms rank / filer digital content</li>\n  <li>Algorithms become gatekeepers of knowledge</li>\n  <li>Affects people's understanding of the world</li>\n</ul>",
+      "text": "<p>Is this effect only limited to games?</p>\n<p><strong>Notes:</strong></p>\n<ul>\n  <li>Not just games: algorithms rank / filter digital content</li>\n  <li>Algorithms become gatekeepers of knowledge</li>\n  <li>Affects people's understanding of the world</li>\n</ul>",
       "keywords": ["algorithms", "gatekeepers", "knowledge"],
       "optionalKeywords": ["rank", "filter", "understanding"]
     },
     {
       "id": "1-q4",
       "type": "part3",
-      "text": "<p>How was knowledge managed in the past, and what was the vision for the future?</p>\n<p><strong>Notes:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Past: humans managed access to content</li>\n<li>Dreamed of universal open access to knowledge via techn</li>\n  <li>BUT... didn't consider bias / manipulation</li>\n</ul>",
+      "text": "<p>How was knowledge managed in the past, and what was the vision for the future?</p>\n<p><strong>Notes:</strong></p>\n<ul>\n  <li>Past: humans managed access to content</li>\n<li>Dreamed of universal open access to knowledge via techn</li>\n  <li>BUT... didn't consider bias / manipulation</li>\n</ul>",
       "keywords": ["humans", "access", "universal"],
       "optionalKeywords": ["technology", "bias", "manipulation"]
     },
      {
       "id": "1-q5",
       "type": "part3",
-      "text": "<p>What are the challenges for technology in reality</p>\n<p><strong>Notes:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Multiple challenges: filter bubbles, lack of diversity, censorship, algorithmic nudgement vs human intelligence</li>\n</ul?",
+      "text": "<p>What are the challenges for technology in reality</p>\n<p><strong>Notes:</strong></p>\n<ul>\n  <li>Multiple challenges: filter bubbles, lack of diversity, censorship, algorithmic nudgement vs human intelligence</li>\n</ul?",
       "keywords": ["filter bubbles", "diversity", "censorship", "judgement"],
       "optionalKeywords": ["challenges"]
     },
     {
       "id": "1-q6",
       "type": "part3",
-      "text": "<p>What is the core issue?</p>\n<p><strong>Notes:</strong></p>\n<ul class=\"alpha-paren\">\n  <li>Ensuring that human values are kept</li>\n<li>Tech intended to expand access to info could reshape society in unintended ways</li>\n</ul>",
+      "text": "<p>What is the core issue?</p>\n<p><strong>Notes:</strong></p>\n<ul>\n  <li>Ensuring that human values are kept</li>\n<li>Tech intended to expand access to info could reshape society in unintended ways</li>\n</ul>",
       "keywords": ["human", "information", "reshape"],
       "optionalKeywords": ["intended", "unintended", "society"]
     }
