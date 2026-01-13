@@ -1,0 +1,16 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Questions about tone",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part2",
+      "text": "<p>What are the lecturer's main ideas about the technology, the tools we build, and the challenges he highlights?</p>",
+      "keywords": ["information", "diversity"],
+      "optionalKeywords": ["homophily", "precision", "cognitive", "what we want", "inspiration", "separated", "friends", "suggestions", "content", "fix"]
+    }
+  ]
+}
