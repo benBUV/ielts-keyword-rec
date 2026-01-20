@@ -9,13 +9,13 @@
       "id": "1-q1",
       "type": "part1",
       "text": "<p><strong>1. What is one benefit of having a roommate?</strong></p>\n<p>Having a roommate is good because…</p>\n<ol class=\"alpha-paren\">\n<li>I can save money by sharing utilities</li>\n<li>I can use their milk</li>\n</ol>",
-      "keywords": ["because", "save", "money", "bills", "ideas"],
+      "keywords": ["because", "save", "money", "bills", "ideas"]
     },
         {
       "id": "1-q2",
       "type": "part1",
       "text": "<p><strong>2. What is one risk of having a roommate?</strong></p>\n<p>Having a roommate could be bad because…</p>\n<ol class=\"alpha-paren\">\n<li>They might be noisy</li>\n<li>They might offer me tea</li>\n</ol>",
-      "keywords": ["because", "might", "noisy"],
+      "keywords": ["because", "might", "noisy"]
     },
         {
       "id": "1-q3",
@@ -27,9 +27,8 @@
       "id": "1-q4",
       "type": "part1",
       "text": "<p><strong>4. What is a good way to start?</strong></p>\n<p>In week one, it’s good to…</p>\n<ol class=\"alpha-paren\">\n<li>Have a briefing to talk about preferences and requests</li>\n<li>Stay in my room and play alone</li>\n</ol>",
-      "keywords": ["increases", "international", "cooperation"],
-      "optionalKeywords": ["speaker", "notes"]
-    },
+      "keywords": ["briefing", "preferences", "requests"]
+      },
         {
       "id": "1-q5",
       "type": "part1",
