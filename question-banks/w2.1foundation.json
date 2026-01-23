@@ -1,0 +1,50 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Description grammar",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>My school (was / is) near a big landmark.</p>",
+      "keywords": ["school", "is", "landmark"]
+    },
+     {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>Our long yellow building (is / was) opposite a small park.</p>",
+      "keywords": ["building", "is", "opposite", "park"]
+    }, {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>It (has / had) yellow walls and a metal roof.</p>",
+      "keywords": ["has", "yellow", "walls"]
+    },
+     {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>In the morning the yard (looks / looked) bright in the sun.</p>",
+      "keywords": ["yard", "looks", "bright", "sun"]
+    },
+     {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>Inside, there (were / are) three floors.</p>",
+      "keywords": ["inside", "are", "three", "floors"]
+    },
+     {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>After students (study / studied), they join clubs.</p>",
+      "keywords": ["after", "students", "study", "join", "clubs"]
+    },
+    {
+      "id": "1-q7",
+      "type": "part1",
+      "text": "<p>The teachers are kind and the yard (felt / feels) safe.</p>",
+      "keywords": ["teachers", "are", "kind", "yard", "feels", "safe"]
+    }
+  ]
+}
