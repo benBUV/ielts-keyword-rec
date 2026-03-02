@@ -33,8 +33,7 @@
       "id": "1-q5",
       "type": "part1",
       "text": "<p><strong>5. What’s the polite way to ask?</strong></p>\n<ol class=\"alpha-paren\">\n<li>I prefer it quiet after 10pm</li>\n<li>Be quiet after 10pm</li>\n</ol>",
-      "keywords": ["greenhouse", "emissions", "transportation"],
-      "optionalKeywords": ["prefer", "quiet"]
+      "keywords": ["prefer", "quiet", "after"]
     },
         {
       "id": "1-q6",
