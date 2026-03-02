@@ -1,0 +1,45 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Questions about globalization",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "media": "./videos/Meet Your Roommate 2 With.mp4",
+      "optionalKeywords": ["live", "with"]
+    },
+        {
+      "id": "1-q2",
+      "type": "part1",
+      "media": "./videos/Meet Your Roommate 2 Routine.mp4",
+      "optionalKeywords": ["first", "then", "after", "finally"]
+    },
+        {
+      "id": "1-q3",
+      "type": "part1",
+      "media": "./videos/Meet Your Roommate 2 Preferences.mp4",
+      "optionalKeywords": ["prefer"]
+    },
+        {
+      "id": "1-q4",
+      "type": "part1",
+      "media": "./videos/Meet Your Roommate 2 Friends.mp4",
+      "optionalKeywords": ["could", "message", "if"]
+      },
+        {
+      "id": "1-q5",
+      "type": "part1",
+      "media": "./videos/Meet Your Roommate 2 Kitchen.mp4",
+      "optionalKeywords": ["could", "message", "if"]
+    },
+        {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p><strong>What’s the polite way to ask?</strong></p>\n<ol class=\"alpha-paren\">\n<li>Message me before guests</li>\n<li>Could you message me if guests are coming?</li>\n</ol>",
+      "keywords": ["usually", "around"]
+    }
+  ]
+}
