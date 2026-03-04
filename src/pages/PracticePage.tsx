@@ -594,7 +594,7 @@ export default function PracticePage() {
                       aria-label="Recording status indicators"
                       >
                         {/* Left: Recording Status */}
-                        <div className="flex items-center justify-center h-12">
+                        <div className="flex-1 flex items-center justify-center h-12">
                           <RecorderIndicator isRecording={isRecording} isPaused={isPaused} />
                         </div>
                         
@@ -610,7 +610,7 @@ export default function PracticePage() {
                         </div>
                         
                         {/* Right: Timer Display */}
-                        <div className="text-center">
+                        <div className="flex-1 text-center">
                           <p className="text-sm text-muted-foreground mb-1">
                             Speaking Time
                           </p>

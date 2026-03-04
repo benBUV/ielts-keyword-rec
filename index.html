@@ -12,29 +12,19 @@
     <!-- Load font non-blocking -->
     <link
       rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+     href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript>
-      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     </noscript>
 
     <title>IELTS Speaking</title>
   </head>
 
   <body class="dark:bg-gray-900">
-    <div id="root">
-      <!-- Loading placeholder (improves perceived performance in Canvas iframe) -->
-    <div id="loading" style="
-      font-family: Lato, sans-serif;
-      padding: 2rem;
-      text-align: center;
-    ">
-      Loading...
-    </div>
-    </div>
-
+    <div id="root"></div>
     <!-- Vite entry -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
