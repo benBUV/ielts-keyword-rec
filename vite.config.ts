@@ -5,7 +5,7 @@ import path from 'path';
 //import { miaodaDevPlugin } from "miaoda-sc-plugin";
 
 export default defineConfig({
-  base: '/ielts-keyword-rec/',
+  base: '/',
   plugins: [
     react(),
     svgr({
