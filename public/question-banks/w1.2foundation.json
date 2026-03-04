@@ -34,12 +34,6 @@
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 Kitchen.mp4",
       "optionalKeywords": ["could", "message", "if"]
-    },
-        {
-      "id": "1-q6",
-      "type": "part1",
-      "text": "<p><strong>What’s the polite way to ask?</strong></p>\n<ol class=\"alpha-paren\">\n<li>Message me before guests</li>\n<li>Could you message me if guests are coming?</li>\n</ol>",
-      "keywords": ["usually", "around"]
     }
   ]
 }
