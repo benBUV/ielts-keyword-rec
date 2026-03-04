@@ -9,62 +9,62 @@
     {
       "id": "1-q1",
       "type": "part1",
-      "text": "<p><strong>1. “Could we have a quick ______ to talk about our routines?”</strong></p>\n<ol class=\"alpha-paren\">\n<li>independence</li>\n<li>utility</li>\n<li>briefing</li>\n<li>duplicate</li>\n</ol>",
-      "keywords": ["could", "briefing", "talk", "routines"]
+      "text": "<p><strong>1. “Could we meet for a quick ______?”</strong></p>\n<ol class=\"alpha-paren\">\n<li>independence</li>\n<li>utility</li>\n<li>briefing</li>\n</ol>",
+      "keywords": ["could", "meet", "briefing"]
     },
     {
       "id": "1-q2",
       "type": "part1",
-      "text": "<p><strong>2. “I don’t mind ______ the chores.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>preference</li>\n<li>sharing</li>\n<li>independence</li>\n<li>confirm</li>\n</ol>",
-      "keywords": ["don't", "mind", "sharing", "chores"]
+      "text": "<p><strong>2. “We ______ the chores.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>preference</li>\n<li>share</li>\n<li>independence</li>\n</ol>",
+      "keywords": ["don't", "share", "chores"]
     },
     {
       "id": "1-q3",
       "type": "part1",
-      "text": "<p><strong>3. “My ______ is to study in a quiet room after ten.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>respect</li>\n<li>duplicate</li>\n<li>utilities</li>\n<li>preference</li>\n</ol>",
-      "keywords": ["my", "preference", "study", "quiet"]
+      "text": "<p><strong>3. “My ______ is a quiet house.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>respect</li>\n<li>duplicate</li>\n<li>preference</li>\n</ol>",
+      "keywords": ["preference", "quiet"]
     },
     {
       "id": "1-q4",
       "type": "part1",
-      "text": "<p><strong>4. “If we live together, we could split the ______ like water and electricity.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>routine</li>\n<li>briefing</li>\n<li>utilities</li>\n<li>clarify</li>\n</ol>",
-      "keywords": ["split", "utilities", "water", "electricity"]
+      "text": "<p><strong>4. “The water and electricity ______ are cheap.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>routine</li>\n<li>briefing</li>\n<li>utilities</li>\n<li>clarify</li>\n</ol>",
+      "keywords": ["utilities", "water", "electricity"]
     },
     {
       "id": "1-q5",
       "type": "part1",
-      "text": "<p><strong>5. “Let’s make a list so we don’t buy ______ food from the supermarket.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>independence</li>\n<li>duplicate</li>\n<li>sharing</li>\n<li>confirm</li>\n</ol>",
-      "keywords": ["list", "don't", "buy", "duplicate"]
+      "text": "<p><strong>5. “We shop together so we don’t buy ______ food.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>independence</li>\n<li>duplicate</li>\n<li>sharing</li>\n</ol>",
+      "keywords": ["shop", "togther", "duplicate"]
     },
     {
       "id": "1-q6",
       "type": "part1",
-      "text": "<p><strong>6. “My morning ______ is shower, coffee, then class.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>routine</li>\n<li>respect</li>\n<li>utilities</li>\n<li>briefing</li>\n</ol>",
-      "keywords": ["morning", "routine", "shower", "coffee"]
+      "text": "<p><strong>6. “My morning ______ is shower, breakfast, then class.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>routine</li>\n<li>respect</li>\n<li>utilities</li>\n</ol>",
+      "keywords": ["morning", "routine", "shower", "breakfast"]
     },
     {
       "id": "1-q7",
       "type": "part1",
-      "text": "<p><strong>7. “Sorry, I don’t understand. Can you ______ what you mean?”</strong></p>\n<ol class=\"alpha-paren\">\n<li>duplicate</li>\n<li>preference</li>\n<li>clarify</li>\n<li>independence</li>\n</ol>",
-      "keywords": ["sorry", "clarify", "understand", "mean"]
+      "text": "<p><strong>7. “Could you ______ what you mean?”</strong></p>\n<ol class=\"alpha-paren\">\n<li>duplicate</li>\n<li>preference</li>\n<li>clarify</li>\n</ol>",
+      "keywords": ["could", "clarify", "mean"]
     },
     {
       "id": "1-q8",
       "type": "part1",
-      "text": "<p><strong>8. “If we speak politely to each other, we show ______.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>briefing</li>\n<li>routine</li>\n<li>respect</li>\n<li>sharing</li>\n</ol>",
-      "keywords": ["speak", "politely", "respect", "each"]
+      "text": "<p><strong>8. “We ______ each other.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>briefing</li>\n<li>routine</li>\n<li>respect</li>\n</ol>",
+      "keywords": ["respect", "each", "other"]
     },
     {
       "id": "1-q9",
       "type": "part1",
-      "text": "<p><strong>9. “Living away from home helps you learn ______.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>utilities</li>\n<li>independence</li>\n<li>duplicate</li>\n<li>clarify</li>\n</ol>",
-      "keywords": ["living", "away", "independence", "learn"]
+      "text": "<p><strong>9. “Living alone gives me ______.”</strong></p>\n<ol class=\"alpha-paren\">\n<li>utilities</li>\n<li>independence</li>\n<li>duplicate</li>\n</ol>",
+      "keywords": ["living", "alone", "independence"]
     },
     {
       "id": "1-q10",
       "type": "part1",
-      "text": "<p><strong>10. “Just to ______ — you’ll use the kitchen at nine, right?”</strong></p>\n<ol class=\"alpha-paren\">\n<li>preference</li>\n<li>routine</li>\n<li>sharing</li>\n<li>confirm</li>\n</ol>",
-      "keywords": ["just", "confirm", "kitchen", "nine"]
+      "text": "<p><strong>10. “Could you ______ — the meeting time?”</strong></p>\n<ol class=\"alpha-paren\">\n<li>routine</li>\n<li>sharing</li>\n<li>confirm</li>\n</ol>",
+      "keywords": ["could", "confirm", "meeting"]
     }
   ]
 }
