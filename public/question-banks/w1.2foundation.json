@@ -9,31 +9,32 @@
       "id": "1-q1",
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 With.mp4",
-      "optionalKeywords": ["live", "with"]
+      "keywords": ["live", "with"]
     },
         {
       "id": "1-q2",
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 Routine.mp4",
-      "optionalKeywords": ["first", "then", "after", "finally"]
+      "keywords": ["first", "then", "finally"],
+      "optionalKeywords": ["after"]
     },
         {
       "id": "1-q3",
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 Preferences.mp4",
-      "optionalKeywords": ["prefer"]
+      "keywords": ["prefer"]
     },
         {
       "id": "1-q4",
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 Friends.mp4",
-      "optionalKeywords": ["could", "message", "if"]
+      "keywords": ["could", "message", "before"]
       },
         {
       "id": "1-q5",
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 Kitchen.mp4",
-      "optionalKeywords": ["could", "message", "if"]
+      "keywords": ["usually", "use", "kitchen"]
     }
   ]
 }
