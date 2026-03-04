@@ -1,6 +1,6 @@
 import { Question, QuestionBank } from '@/types';
 import { defaultQuestionBank } from '@/data/question-banks/default';
-const base = import.meta.env.BASE_URL; // e.g. "/" or "/ielts-speaking/"
+// const base = import.meta.env.BASE_URL; // e.g. "/" or "/ielts-speaking/"
 
 /**
  * Dynamic question bank loader
@@ -23,7 +23,7 @@ export const getQueryParams = (): URLSearchParams => {
 const loadQuestionBankFromFile = async (bankId: string): Promise<QuestionBank> => {
   try {
     // Try to load from public/question-banks/ directory
-    const response = await fetch(`${base}/question-banks/${bankId}.json`);
+    const response = await fetch(`/question-banks/${bankId}.json`)
     
     if (!response.ok) {
       throw new Error(`Failed to load question bank: ${response.statusText}`);
