@@ -8,38 +8,32 @@
     {
       "id": "1-q1",
       "type": "part1",
-      "text": "<p><strong>1. What is one benefit of having a roommate?</strong></p>\n<p>Having a roommate is good because…</p>\n<ol class=\"alpha-paren\">\n<li>I can save money by sharing utilities</li>\n<li>I can use their milk</li>\n</ol>",
-      "keywords": ["because", "save", "money", "bills", "ideas"]
+      "text": "<p><strong>1. Why is having a roommate good?</strong></p>\n<ol class=\"alpha-paren\">\n<li>Because I can save money</li>\n<li>Because I can drink their milk</li>\n</ol>",
+      "keywords": ["because", "save", "money"]
     },
         {
       "id": "1-q2",
       "type": "part1",
-      "text": "<p><strong>2. What is one risk of having a roommate?</strong></p>\n<p>Having a roommate could be bad because…</p>\n<ol class=\"alpha-paren\">\n<li>They might be noisy</li>\n<li>They might offer me tea</li>\n</ol>",
+      "text": "<p><strong>2. Why is having a roommate bad?</strong></p>\n<ol class=\"alpha-paren\">\n<li>Because they might be noisy</li>\n<li>Because they make me tea</li>\n</ol>",
       "keywords": ["because", "might", "noisy"]
     },
         {
       "id": "1-q3",
       "type": "part1",
-      "text": "<p><strong>How could having a roommate improve your speaking?</strong></p>\n<p>I can practice skills like…</p>\n<ol class=\"alpha-paren\">\n<li>Sequencing and confirming information</li>\n<li>Using the microwave</li>\n</ol>",
-      "keywords": ["practice", "like", "sequencing", "confirming"]
+      "text": "<p><strong>3. What can you practice with your roommate?</strong></p>\n<ol class=\"alpha-paren\">\n<li>I can practice talking about my routine</li>\n<li>I can practice using the microwave</li>\n</ol>",
+      "keywords": ["practice", "talking", "routine"]
     },
         {
       "id": "1-q4",
       "type": "part1",
-      "text": "<p><strong>4. What is a good way to start?</strong></p>\n<p>In week one, it’s good to…</p>\n<ol class=\"alpha-paren\">\n<li>Have a briefing to talk about preferences and requests</li>\n<li>Stay in my room and play alone</li>\n</ol>",
-      "keywords": ["briefing", "preferences", "requests"]
+      "text": "<p><strong>4. Why is a briefing helpful?</strong></p>\n<ol class=\"alpha-paren\">\n<li>We can talk about preferences and requests</li>\n<li>We can play games</li>\n</ol>",
+      "keywords": ["preferences", "requests"]
       },
         {
       "id": "1-q5",
       "type": "part1",
-      "text": "<p><strong>5. What’s the polite way to ask?</strong></p>\n<ol class=\"alpha-paren\">\n<li>I prefer it quiet after 10pm</li>\n<li>Be quiet after 10pm</li>\n</ol>",
-      "keywords": ["prefer", "quiet", "after"]
-    },
-        {
-      "id": "1-q6",
-      "type": "part1",
-      "text": "<p><strong>What’s the polite way to ask?</strong></p>\n<ol class=\"alpha-paren\">\n<li>Message me before guests</li>\n<li>Could you message me if guests are coming?</li>\n</ol>",
-      "keywords": ["could", "message", "guests", "coming"]
+      "text": "<p><strong>Which is the best way to ask?</strong></p>\n<ol class=\"alpha-paren\">\n<li>Message me before guests come</li>\n<li>Could you message me before guests come?</li>\n</ol>",
+      "keywords": ["could", "message", "guests", "come"]
     }
   ]
 }
