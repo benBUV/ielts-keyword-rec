@@ -33,6 +33,7 @@ export default function PracticePage() {
     matchedKeywords: string[];
     missedKeywords: string[];
     matchedOptionalKeywords?: string[];
+    hasOptionalKeywords: boolean;
   } | null>(null);
   
   // Check URL parameter for keywords display
@@ -333,72 +334,90 @@ export default function PracticePage() {
 
   // Check answer function - stops recording and evaluates keywords
   const handleCheckAnswer = async () => {
-    console.log('🛑 [PracticePage] ========== handleCheckAnswer START ==========');
-    console.log('📊 [PracticePage] Current question:', currentQuestion.id);
-    console.log('📊 [PracticePage] isRecording:', isRecording);
-    
-    // STEP 1: Stop listening FIRST (prevents new transcripts from coming in)
-    if (isSpeechRecognitionSupported) {
-      stopListening();
-      console.log('✅ [PracticePage] Speech recognition stopped');
-    }
-    
-    // STEP 2: Wait for ALL final speech results to arrive
-    await new Promise(resolve => setTimeout(resolve, 500));
-    console.log('⏱️ [PracticePage] Waited 500ms for final speech results');
-    
-    // STEP 3: Capture the transcript using getCurrentTranscript
-    const currentTranscript = getCurrentTranscript();
-    console.log('📝 [PracticePage] Captured transcript:', currentTranscript.substring(0, 100) + '...');
-    console.log('📝 [PracticePage] Transcript length:', currentTranscript.length, 'characters');
-    
-    // STEP 4: Perform keyword matching with optional keywords
-    const keywords = currentQuestion.keywords || [];
-    const optionalKeywords = currentQuestion.optionalKeywords;
-    const matchResult = matchKeywords(keywords, currentTranscript, optionalKeywords);
-    console.log('🔑 [PracticePage] Keyword matching result:', matchResult);
-    
-    // STEP 5: Stop audio recording
-    console.log('🎙️ [PracticePage] Stopping audio recording...');
-    const blob = await stopRecording();
-    console.log('✅ [PracticePage] Audio recording stopped, blob size:', blob?.size || 0, 'bytes');
+  // STEP 1: Stop listening FIRST (prevents new transcripts from coming in)
+  if (isSpeechRecognitionSupported) {
+    stopListening();
+  }
 
-    // STEP 6: Save the recording with keyword matching results
-    if (blob) {
-      const recording: Recording = {
-        id: `recording-${Date.now()}`,
-        questionId: currentQuestion.id,
-        audioBlob: blob,
-        transcript: currentTranscript,
-        duration: totalSpeechTime,
-        timestamp: Date.now(),
-        isCorrect: matchResult.isCorrect,
-        quality: matchResult.quality,
-        matchedKeywords: matchResult.matchedKeywords,
-        missedKeywords: matchResult.missedKeywords,
-        matchedOptionalKeywords: matchResult.matchedOptionalKeywords,
-      };
+  // STEP 2: Wait for ALL final speech results to arrive
+  await new Promise(resolve => setTimeout(resolve, 500));
 
-      console.log('💾 [PracticePage] Saving recording...');
-      setRecordings((prev) => [...prev, recording]);
-      
-      // Set feedback data for display in transcript section
-      setFeedbackData({
-        isCorrect: matchResult.isCorrect,
-        quality: matchResult.quality,
-        matchedKeywords: matchResult.matchedKeywords,
-        missedKeywords: matchResult.missedKeywords,
-        matchedOptionalKeywords: matchResult.matchedOptionalKeywords,
-      });
-      
-      // Mark answer as checked - this enables the Next Question button
-      setHasCheckedAnswer(true);
+  // STEP 3: Capture the transcript
+  const currentTranscript = getCurrentTranscript();
+
+  // STEP 4: Perform keyword matching with optional keywords
+  const keywords = currentQuestion.keywords || [];
+
+  const optionalKeywords = currentQuestion.optionalKeywords; // ❗ no default here
+
+  const hasOptionalKeywords =
+    Array.isArray(optionalKeywords) &&
+    optionalKeywords.length > 0;
+
+  const matchResult = matchKeywords(
+    keywords,
+    currentTranscript,
+    optionalKeywords || [] // ✅ default only when passing
+  );
+
+  // 🔐 Derive quality safely (do NOT trust matchResult.quality)
+  let quality: 'excellent' | 'good' | undefined;
+
+  if (matchResult.isCorrect) {
+    if (
+      hasOptionalKeywords &&
+      matchResult.matchedOptionalKeywords &&
+      matchResult.matchedOptionalKeywords.length > 0
+    ) {
+      quality = 'excellent';
     } else {
-      console.warn('⚠️ [PracticePage] No audio blob available, recording not saved');
+      quality = 'good';
     }
-    
-    console.log('🛑 [PracticePage] ========== handleCheckAnswer END ==========');
-  };
+  }
+
+  // STEP 5: Stop audio recording
+  console.log('🎙️ [PracticePage] Stopping audio recording...');
+  const blob = await stopRecording();
+  console.log(
+    '✅ [PracticePage] Audio recording stopped, blob size:',
+    blob?.size || 0,
+    'bytes'
+  );
+
+  // STEP 6: Save the recording with keyword matching results
+  if (blob) {
+    const recording: Recording = {
+      id: `recording-${Date.now()}`,
+      questionId: currentQuestion.id,
+      audioBlob: blob,
+      transcript: currentTranscript,
+      duration: totalSpeechTime,
+      timestamp: Date.now(),
+      isCorrect: matchResult.isCorrect,
+      quality, // ✅ use safely derived quality
+      matchedKeywords: matchResult.matchedKeywords,
+      missedKeywords: matchResult.missedKeywords,
+      matchedOptionalKeywords: matchResult.matchedOptionalKeywords,
+    };
+
+    setRecordings((prev) => [...prev, recording]);
+
+    // Set feedback data for display
+    setFeedbackData({
+      isCorrect: matchResult.isCorrect,
+      quality, // ✅ use safely derived quality
+      matchedKeywords: matchResult.matchedKeywords,
+      missedKeywords: matchResult.missedKeywords,
+      matchedOptionalKeywords: matchResult.matchedOptionalKeywords,
+      hasOptionalKeywords,
+    });
+
+    // Enable Next Question button
+    setHasCheckedAnswer(true);
+  } else {
+    console.warn('⚠️ [PracticePage] No audio blob available, recording not saved');
+  }
+};
 
   const handlePauseResume = () => {
     if (isPaused) {
@@ -879,7 +898,9 @@ export default function PracticePage() {
                                 {feedbackData.isCorrect 
                                   ? feedbackData.quality === 'excellent'
                                     ? "Keep up the amazing work! Your vocabulary is impressive! 🎉"
-                                    : "Great job! Try including bonus keywords next time for an excellent rating! ⭐"
+                                    : feedbackData.hasOptionalKeywords
+                                      ? "Great job! Try including bonus keywords next time for an excellent rating! ⭐"
+                                      : "Great job!"
                                   : "Review the missing keywords and try again on the next question! 💪"
                                 }
                               </div>

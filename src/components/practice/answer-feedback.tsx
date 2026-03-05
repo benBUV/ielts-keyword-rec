@@ -9,6 +9,7 @@ interface AnswerFeedbackProps {
   matchedKeywords: string[];
   missedKeywords: string[];
   matchedOptionalKeywords?: string[];
+  hasOptionalKeywords: boolean;
   onClose?: () => void;
 }
 
@@ -17,19 +18,21 @@ export const AnswerFeedback = ({
   quality,
   matchedKeywords,
   missedKeywords,
-  matchedOptionalKeywords,
+  matchedOptionalKeywords = [], 
+  hasOptionalKeywords
 }: AnswerFeedbackProps) => {
   const [isVisible, setIsVisible] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
   useEffect(() => {
-    // Trigger entrance animation
-    setTimeout(() => setIsVisible(true), 50);
-    
-    // Show confetti for excellent ratings
+  setTimeout(() => setIsVisible(true), 50);
+  }, []);
+
+  useEffect(() => {
     if (quality === 'excellent') {
       setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 3000);
+      const timer = setTimeout(() => setShowConfetti(false), 3000);
+      return () => clearTimeout(timer);
     }
   }, [quality]);
 
@@ -147,7 +150,7 @@ export const AnswerFeedback = ({
             )}
 
             {/* Matched Optional Keywords */}
-            {matchedOptionalKeywords && matchedOptionalKeywords.length > 0 && (
+            {hasOptionalKeywords && matchedOptionalKeywords.length > 0 && (
               <div className="bg-white/50 dark:bg-black/20 rounded-lg p-4 border-2 border-yellow-300 dark:border-yellow-700">
                 <div className="flex items-center gap-2 mb-3">
                   <Star className="w-5 h-5 text-yellow-600 dark:text-yellow-400 fill-yellow-500" />
@@ -199,7 +202,9 @@ export const AnswerFeedback = ({
               {isCorrect 
                 ? quality === 'excellent'
                   ? "Keep up the amazing work! 🎉"
-                  : "Great job! Try including bonus keywords next time for an excellent rating! ⭐"
+                  : hasOptionalKeywords
+                    ? "Great job! Try including bonus keywords next time for an excellent rating! ⭐"
+                    : "Great job!"
                 : "Review the missing keywords and try again on the next question! 💪"
               }
             </p>

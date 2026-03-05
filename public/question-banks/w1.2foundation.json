@@ -28,7 +28,8 @@
       "id": "1-q4",
       "type": "part1",
       "media": "./videos/Meet Your Roommate 2 Friends.mp4",
-      "keywords": ["could", "message", "before"]
+      "keywords": ["could", "message", "before"],
+      "optionalKeywords": ["please"]
       },
         {
       "id": "1-q5",
