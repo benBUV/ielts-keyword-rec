@@ -434,9 +434,9 @@ export default function PracticePage() {
   };
 
   const handleNextQuestion = async () => {
-    console.log('🔄 [PracticePage] ========== handleNextQuestion START ==========');
-    console.log('📊 [PracticePage] Current question:', currentQuestion.id);
-    console.log('📊 [PracticePage] isRecording:', isRecording);
+    // console.log('🔄 [PracticePage] ========== handleNextQuestion START ==========');
+    // console.log('📊 [PracticePage] Current question:', currentQuestion.id);
+    // console.log('📊 [PracticePage] isRecording:', isRecording);
     
     // Clear feedback data
     setFeedbackData(null);
@@ -448,13 +448,13 @@ export default function PracticePage() {
     setIsTransitioning(true);
     
     // Clear transcript for next question
-    console.log('🧹 [PracticePage] Clearing transcript for next question...');
+    // console.log('🧹 [PracticePage] Clearing transcript for next question...');
     resetTranscript();
     console.log('✅ [PracticePage] Transcript cleared');
 
     // Check if there are more questions
     if (currentQuestionIndex < sampleQuestions.length - 1) {
-      console.log('➡️ [PracticePage] Moving to next question:', currentQuestionIndex + 1);
+      // console.log('➡️ [PracticePage] Moving to next question:', currentQuestionIndex + 1);
       
       // Move to next question
       setCurrentQuestionIndex((prev) => prev + 1);
@@ -464,7 +464,7 @@ export default function PracticePage() {
       
       // Get next question to determine how to start it
       const nextQuestion = sampleQuestions[currentQuestionIndex + 1];
-      console.log('📋 [PracticePage] Next question:', nextQuestion.id, 'Type:', nextQuestion.type);
+     //  console.log('📋 [PracticePage] Next question:', nextQuestion.id, 'Type:', nextQuestion.type);
       
       // Brief delay for smooth transition
       setTimeout(() => {
@@ -475,14 +475,14 @@ export default function PracticePage() {
       }, 300);
     } else {
       // All questions completed - go to review
-      console.log('✅ [PracticePage] All questions completed - showing review');
+      // console.log('✅ [PracticePage] All questions completed - showing review');
       setTimeout(() => {
         setPhase(AppPhase.Review);
         setIsTransitioning(false);
       }, 300);
     }
     
-    console.log('🔄 [PracticePage] ========== handleNextQuestion END ==========');
+    // console.log('🔄 [PracticePage] ========== handleNextQuestion END ==========');
   };
 
   const handleRetry = () => {
@@ -820,6 +820,7 @@ export default function PracticePage() {
                           </div>
                           
                           {/* Feedback Details Section */}
+                          
                           {hasCheckedAnswer && feedbackData && (
                             <div className="mt-6 pt-4 border-t border-current/20 space-y-4">
                               {/* Quality Rating */}
@@ -897,14 +898,15 @@ export default function PracticePage() {
                               <div className="text-sm text-muted-foreground italic">
                                 {feedbackData.isCorrect 
                                   ? feedbackData.quality === 'excellent'
-                                    ? "Keep up the amazing work! Your vocabulary is impressive! 🎉"
+                                    ? "🎉 Keep up the amazing work! "
                                     : feedbackData.hasOptionalKeywords
-                                      ? "Great job! Try including bonus keywords next time for an excellent rating! ⭐"
+                                      ? "Great job!"
                                       : "Great job!"
                                   : "Review the missing keywords and try again on the next question! 💪"
                                 }
                               </div>
                             </div>
+                            
                           )}
                         </div>
                       ) : (
