@@ -97,7 +97,7 @@ export function matchKeywords(
     }
   }
   
-  const isCorrect = missedKeywords.length === 0 && requiredKeywords.length > 0;
+const isCorrect = requiredKeywords.length === 0 || missedKeywords.length === 0;
   
   // Check optional keywords if provided and all required keywords are matched
   let quality: 'excellent' | 'good' | undefined;
