@@ -9,31 +9,31 @@
     {
       "id": "1-q1",
       "type": "part1",
-      "text": "<p>What was your hometown like in the past?\n<ol>\n<li>It (to be) quiet and small.</li>\n</ol>",
+      "text": "<p>What was your hometown like in the past?\n<ol>\n<li>Use: My hometown +(to be)</li>\n</ol>",
       "keywords": ["was"]
     },
     {
       "id": "1-q2",
       "type": "part1",
-      "text": "<p>Where did you grow up?\n<ol>\n<li>I (to grow up) in Hue.</li>\n</ol>",
+      "text": "<p>Where did you grow up?\n<ol>\n<li>Use: I + (to grow up)</li>\n</ol>",
       "keywords": ["grew"]
     },
     {
       "id": "1-q3",
       "type": "part1",
-      "text": "<p>Is it a good place to live?\n<ol>\n<li>Yes, it (to be) very safe and clean.</li>\n</ol>",
+      "text": "<p>Is it a good place to live?\n<ol>\n<li>Use: It + (to be)</li>\n</ol>",
       "keywords": ["is"]
     },
     {
       "id": "1-q4",
       "type": "part1",
-      "text": "<p>What was your hometown like in the past?\n<ol>\n<li>It (to be) quiet and small.</li>\n</ol>",
+      "text": "<p>What was your hometown like in the past?\n<ol>\n<li>Use: It + (to be)</li>\n</ol>",
       "keywords": ["was"]
     },
     {
       "id": "1-q5",
       "type": "part1",
-      "text": "<p>What do people usually do for fun?\n<ol>\n<li>They (to go) to the mall or watch films.</li>\n</ol>",
+      "text": "<p>What do people usually do for fun?\n<ol>\n<li>Use: They +(to go)</li>\n</ol>",
       "keywords": ["go"]
     }
   ]
