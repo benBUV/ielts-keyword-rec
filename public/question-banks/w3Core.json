@@ -1,0 +1,33 @@
+{
+  "id": "wk3",
+  "name": "Cities",
+  "description": "Part 3 questions about places",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "part3",
+      "media": "./videos/core/w3/W3.1Cities.mp4",
+      "speakingDuration": 40
+    },
+    {
+      "id": "q2",
+      "type": "part3",
+      "media": "./videos/core/w3/W3.2Cities.mp4",
+      "speakingDuration": 40
+    },
+     {
+      "id": "q3",
+      "type": "part3",
+      "media": "./videos/core/w3/W3.3Cities.mp4",
+      "speakingDuration": 40
+    },
+      {
+      "id": "q4",
+      "type": "part3",
+      "media": "./videos/core/w3/W3.4Cities.mp4",
+      "speakingDuration": 40
+    }
+  ]
+}
