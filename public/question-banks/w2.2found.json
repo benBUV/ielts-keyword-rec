@@ -1,0 +1,50 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Description grammar",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>My hometown is small and quiet in the winter, but in summer it gets busy.</p>",
+      "media": "./videos/found/W2 Shadow.mp4",
+      "optionalKeywords": ["hometown", "small", "quiet", "winter", "summer", "busy"]
+    },
+     {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>The old area of the town is historic and traditional, and many tourists like to visit it.</p>",
+      "media": "./videos/found/W2 Shadow 1.mp4",
+      "optionalKeywords": ["old", "town", "historic", "traditional", "tourists", "visit"]
+    }, {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>The streets are quite narrow. They get crowded when people go to work.</p>",
+      "media": "./videos/found/W2 Shadow 2.mp4",
+      "optionalKeywords": ["streets", "narrow", "crowded", "people", "work"]
+    },
+     {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>Listen and repeat</p>",
+      "media": "./videos/found/W2 Shadow 3.mp4",
+      "optionalKeywords": ["air", "polluted", "cool", "parks", "trees"]
+    },
+     {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>Listen and repeat</p>",
+      "media": "./videos/found/W2 Shadow 4.mp4",
+      "optionalKeywords": ["taller", "modern", "buildings", "being", "built"]
+    },
+     {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>Listen and repeat</p>",
+      "media": "./videos/found/W2 Shadow 5.mp4",
+      "optionalKeywords": ["evening", "lively", "many", "people", "go", "eat"]
+    }
+  ]
+}
