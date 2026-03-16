@@ -1,0 +1,14 @@
+{
+  "id": "listen and summarise",
+  "name": "part 2 practice",
+  "description": "Description grammar",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part2",
+      "text": "<p>Describe a tourist attraction in your country that you know well</p>"
+    }
+  ]
+}
