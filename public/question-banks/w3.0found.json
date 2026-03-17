@@ -1,0 +1,51 @@
+{
+  "id": "ed-ing",
+  "name": "ed-ing",
+  "description": "endinggrammar",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>I got a place on the course! I’m _________ (thrill).</p>",
+      "keywords": ["thrilled"],
+      "optionalKeywords": ["got", "place", "course"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>It’s a very _________ (interest) job.</p>",
+      "keywords": ["interesting"],
+      "optionalKeywords": ["very", "job"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>I spoke to 50 people today; it was _________ (tire).</p>",
+      "keywords": ["tiring"],
+      "optionalKeywords": ["spoke", "people", "today"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>I made a mistake when I was in a meeting. I felt _________ (embarrass).</p>",
+      "keywords": ["embarrassed"],
+      "optionalKeywords": ["made", "mistake", "meeting"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>She changes jobs often. She gets _________ (bore) easily.</p>",
+      "keywords": ["bored"],
+      "optionalKeywords": ["changes", "jobs", "often"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>He’s a journalist. It’s an _________ (amaze) job.</p>",
+      "keywords": ["amazing"],
+      "optionalKeywords": ["journalist", "job"]
+    }
+  ]
+}
