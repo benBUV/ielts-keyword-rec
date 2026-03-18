@@ -1,0 +1,50 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Description grammar",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>I want to work in travel and tourism and my cream job is to be a tour guide.</p>",
+      "media": "./videos/found/w3/Pp1.mp4",
+      "optionalKeywords": ["work", "in", "travel", "tourism", "dream", "job", "tour", "guide"]
+    },
+     {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>A tour guide shows visitors around a city.</p>",
+      "media": "./videos/found/w3/Pp2.mp4",
+      "optionalKeywords": ["tour", "guide", "shows", "visitors", "around", "city"]
+    }, {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>To be a good tour guide, I need special skills like speaking Engilsh very well .</p>",
+      "media": "./videos/found/w3/Pp3.mp4",
+      "optionalKeywords": ["good", "tour", "guide", "need", "special", "skills", "speaking", "English", "well"]
+    },
+     {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>This job fits me perfectly, because sitting in an office is boring, but traveling is exciting.</p>",
+      "media": "./videos/found/w3/Pp4.mp4",
+      "optionalKeywords": ["job", "fits", "me", "perfectly", "sitting", "office", "boring", "traveling", "exciting"]
+    },
+     {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>Listen and repeat</p>",
+      "media": "./videos/found/w3/Pp5.mp4",
+      "optionalKeywords": ["always", "amazed", "new", "places", "know", "happy", "this", "job"]
+    },
+     {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>Listen and repeat</p>",
+      "media": "./videos/found/w3/Pp6.mp4",
+      "optionalKeywords": ["become", "tour", "guide", "practice", "English", "every", "day", "study", "history"]
+    }
+  ]
+}
