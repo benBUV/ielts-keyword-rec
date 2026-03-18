@@ -1,0 +1,14 @@
+{
+  "id": "summative",
+  "name": "summative",
+  "description": "Dream job",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part2",
+      "text": "<p><strong>Describe your dream job.</strong></p>\n<p>You should say:</p>\n<ul>\n<li>The area / the job</li>\n<li>What you do in this job</li>\n<li>What skills you need</li>\n<li>Why this job fits you</li>\n<li>Your plan to get this job</li>\n</ul>"
+    }
+  ]
+}
