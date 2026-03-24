@@ -1,0 +1,44 @@
+{
+  "id": "practice definitions",
+  "name": "practice defs",
+  "description": "Description grammar",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>I really enjoy shopping at Covent Garden Market. It's very __________ because it isn't far from where I live.</p>\n<ol class=\"alpha-paren\">\n<li>expensive</li>\n<li>crowded</li>\n<li>convenient</li>\n<li>traditional</li>\n</ol>",
+      "keywords": ["convenient"],
+      "optionalKeywords": ["enjoy", "shopping", "Covent Garden Market", "very", "isn't far", "where I live"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>I love it because it has a ____________. It’s very lively, with musicians and street performers.</p>\n<ol class=\"alpha-paren\">\n<li>quiet space</li>\n<li>great atmosphere</li>\n<li>modern design</li>\n<li>small size</li>\n</ol>",
+      "keywords": ["great atmosphere"],
+      "optionalKeywords": ["love", "lively", "musicians", "street performers"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>The prices are great. I usually find designer shoes at very ___________ prices.</p>\n<ol class=\"alpha-paren\">\n<li>high</li>\n<li>cheap</li>\n<li>reasonable</li>\n<li>fixed</li>\n</ol>",
+      "keywords": ["reasonable"],
+      "optionalKeywords": ["prices", "great", "designer shoes", "find"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>This shop has an __________ of products. You can find almost anything you need there.</p>\n<ol class=\"alpha-paren\">\n<li>limited choice</li>\n<li>amazing selection</li>\n<li>high price</li>\n<li>small number</li>\n</ol>",
+      "keywords": ["amazing selection"],
+      "optionalKeywords": ["shop", "products", "almost anything", "need"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>The café is a bit __________, so not many people know about it.</p>\n<ol class=\"alpha-paren\">\n<li>in the centre</li>\n<li>easy to find</li>\n<li>out of the way</li>\n<li>very popular</li>\n</ol>",
+      "keywords": ["out of the way"],
+      "optionalKeywords": ["cafe", "not many people", "know about it"]
+    }
+  ]
+}
