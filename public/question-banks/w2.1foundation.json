@@ -1,50 +1,78 @@
 {
-  "id": "listen and summarise",
-  "name": "listen and summarise",
-  "description": "Description grammar",
+  "id": "past_vs_present_school",
+  "name": "past vs present school",
+  "description": "Comparing old and modern classrooms",
   "author": "IELTS Practice Team",
   "version": "1.0",
   "questions": [
     {
       "id": "1-q1",
       "type": "part1",
-      "text": "<p>My school (was / is) near a big landmark.</p>",
-      "keywords": ["school", "is", "landmark"]
-    },
-     {
-      "id": "1-q2",
-      "type": "part1",
-      "text": "<p>Our long yellow building (is / was) opposite a small park.</p>",
-      "keywords": ["building", "is", "opposite", "park"]
-    }, {
-      "id": "1-q3",
-      "type": "part1",
-      "text": "<p>It (has / had) yellow walls and a metal roof.</p>",
-      "keywords": ["has", "yellow", "walls"]
-    },
-     {
-      "id": "1-q4",
-      "type": "part1",
-      "text": "<p>In the morning the yard (looks / looked) bright in the sun.</p>",
-      "keywords": ["yard", "looks", "bright", "sun"]
-    },
-     {
-      "id": "1-q5",
-      "type": "part1",
-      "text": "<p>Inside, there (were / are) three floors.</p>",
-      "keywords": ["inside", "are", "three", "floors"]
-    },
-     {
-      "id": "1-q6",
-      "type": "part1",
-      "text": "<p>After students (study / studied), they join clubs.</p>",
-      "keywords": ["after", "students", "study", "join", "clubs"]
+      "text": "<p>In my grandparents’ school, there ( to be ) a chalkboard.</p>",
+      "keywords": ["was"],
+      "optionalKeywords": ["grandparents", "school", "chalkboard"]
     },
     {
-      "id": "1-q7",
+      "id": "1-q2",
       "type": "part1",
-      "text": "<p>The teachers are kind and the yard (felt / feels) safe.</p>",
-      "keywords": ["teachers", "are", "kind", "yard", "feels", "safe"]
+      "text": "<p>In my school, there ( to be ) a large screen.</p>",
+      "keywords": ["is"],
+      "optionalKeywords": ["school", "large", "screen"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>My grandparents ( to draw ) on paper.</p>",
+      "keywords": ["drew"],
+      "optionalKeywords": ["grandparents", "paper"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>We ( to draw ) on tablets.</p>",
+      "keywords": ["draw"],
+      "optionalKeywords": ["we", "tablets"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>My grandparents' classroom ( to have ) brick walls.</p>",
+      "keywords": ["had"],
+      "optionalKeywords": ["brick", "walls"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>My classroom ( to have ) plastic chairs.</p>",
+      "keywords": ["has"],
+      "optionalKeywords": ["classroom", "plastic", "chairs"]
+    },
+    {
+      "id": "1-q9",
+      "type": "part1",
+      "text": "<p>Before, there ( to be ) black-and-white pictures on the walls.</p>",
+      "keywords": ["were"],
+      "optionalKeywords": ["before", "pictures", "walls"]
+    },
+    {
+      "id": "1-q10",
+      "type": "part1",
+      "text": "<p>Now, there ( to be ) colorful posters.</p>",
+      "keywords": ["are"],
+      "optionalKeywords": ["now", "colorful", "posters"]
+    },
+    {
+      "id": "1-q13",
+      "type": "part1",
+      "text": "<p>In my school there ( to be ) wifi.</p>",
+      "keywords": ["is"],
+      "optionalKeywords": ["school", "wifi"]
+    },
+    {
+      "id": "1-q14",
+      "type": "part1",
+      "text": "<p>In my grandparents' school there ( to be ) any wifi.</p>",
+      "optionalKeywords": ["was", "not", "wasn't"]
     }
   ]
 }
