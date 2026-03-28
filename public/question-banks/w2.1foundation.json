@@ -43,8 +43,8 @@
     {
       "id": "1-q6",
       "type": "part1",
-      "text": "<p>My classroom ( to have ) plastic chairs.</p>",
-      "keywords": ["has"],
+      "text": "<p>These days, the walls ( to be ) bright and painted.</p>",
+      "keywords": ["are"],
       "optionalKeywords": ["classroom", "plastic", "chairs"]
     },
     {
