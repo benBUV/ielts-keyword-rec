@@ -1,0 +1,35 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Questions about tone",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part2",
+      "text": "<p>Join these ideas into one short and one long sentence:</p>\n<ul>\n<li>I was very tired after school.</li>\n<li>I went to my English class in the evening.</li>\n<li>I tried to listen carefully and take notes.</li>\n</ul>",
+      "optionalKeywords": ["while", "although", "because", "so", "but", "if", "when"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part2",
+      "text": "<p>Join these ideas into one short and one long sentence:</p>\n<ul>\n<li>I felt quite nervous before the exam.</li>\n<li>I had an important English test.</li>\n<li>I managed to answer most of the questions.</li>\n</ul>",
+      "optionalKeywords": ["while", "although", "because", "so", "but", "if", "when"]    },
+    {
+      "id": "1-q3",
+      "type": "part2",
+      "text": "<p>Join these ideas into one short and one long sentence:</p>\n<ul>\n<li>I needed a quiet place to study.</li>\n<li>I went to the school library after class.</li>\n<li>I was able to finish all my homework.</li>\n</ul>",
+      "optionalKeywords": ["while", "although", "because", "so", "but", "if", "when"]    },
+    {
+      "id": "1-q4",
+      "type": "part2",
+      "text": "<p>Join these ideas into one short and one long sentence:</p>\n<ul>\n<li>I don’t really enjoy working in groups.</li>\n<li>I join group activities in class.</li>\n<li>I often learn useful ideas from other students.</li>\n</ul>",
+      "optionalKeywords": ["while", "although", "because", "so", "but", "if", "when"]    },
+    {
+      "id": "1-q5",
+      "type": "part2",
+      "text": "<p>Join these ideas into one short and one long sentence:</p>\n<ul>\n<li>My school is quite far from my house.</li>\n<li>I usually wake up very early in the morning.</li>\n<li>I sometimes feel tired during lessons.</li>\n</ul>",
+      "optionalKeywords": ["while", "although", "because", "so", "but", "if", "when"]    }
+  ]
+}
