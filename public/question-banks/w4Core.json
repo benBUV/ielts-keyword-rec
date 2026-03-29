@@ -1,0 +1,17 @@
+{
+  "id": "w2",
+  "name": "Describe a person",
+  "description": "talk about a person you know",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "part2",
+      "text": "<p>Describe a difficult part of your studies.</p>\n<p>You should say:</p>\n<ul>\n<li>What subject or area you were studying</li>\n<li>Why it was difficult for you</li>\n<li>And explain how you dealt with this challenge</li>\n</ul>",
+      "media": "/videos/core/w4/W4.1.mp4",
+      "optionalKeywords": ["because", "while", "although", "so", "but", "if", "when"],
+      "speakingDuration": 120
+    }
+  ]
+}
