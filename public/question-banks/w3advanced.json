@@ -1,0 +1,48 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Chicken jalfrezi practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Can you describe a situation in your life where two people had completely different views about what was ‘true’? What happened, and why did they think differently?</p>"
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>If you compare films or TV shows from the past with those today, do they show society differently? In what ways?</p>"
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>To what extent do you think social media influences what is shown in traditional media, such as television?.</p>"
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>Do you think media and social media influences how people behave? Can you give examples from your country?</p>"
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>Do you think news media in your country is objective and truthful? Are there any issues that it tends to highlight or ignore?</p>"
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>Should media creators be truthful in the content they produce? Is this the same for journalists, documentary makers, and social media influencers?</p>"
+    },
+        {
+      "id": "1-q7",
+      "type": "part1",
+      "text": "<p>What responsibility do individuals have when sharing information online?</p>"
+    },
+            {
+      "id": "1-q8",
+      "type": "part1",
+      "text": "<p>Should documentaries be completely factual, or should they present a particular point of view? Why?</p>"
+  ]
+}
