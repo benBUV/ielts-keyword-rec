@@ -1,0 +1,29 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Chicken jalfrezi practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q9",
+      "type": "part1",
+      "text": "<p>The presenter says that human beings tend to ‘flock’, or move towards people who are similar to them. Can you think of any examples of this from your own experience?</p>"
+    },
+    {
+      "id": "1-q10",
+      "type": "part1",
+      "text": "<p>He talks about an experiment in a business, where employees who had the best ideas tended to bridge gaps (structural holes) between social networks. What does this show about creativity and innovation?</p>"
+    },
+    {
+      "id": "1-q11",
+      "type": "part1",
+      "text": "<p>How do modern internet tools, such as social search, prioritise user desire over cognitive diversity?</p>"
+    },
+    {
+      "id": "1-q12",
+      "type": "part1",
+      "text": "<p>What’s the speaker’s stance on ‘fixing’ the internet if we don’t like the way it works? Do you agree?</p>"
+    }
+  ]
+}
