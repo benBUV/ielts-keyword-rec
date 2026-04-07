@@ -1,0 +1,24 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Chicken jalfrezi practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Summarise the text ‘Beyond Engagement: Rethinking Algorithms in Social Media Design’. You should say:</p><ul><li>What is the topic and key issue</li><li>Why algorithms are designed as they are</li><li>What are the effects of this design</li></ul>"
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>Summarise the video ‘How Tik Tok’s algorithm figures you out’. You should say:</p><ul><li>Introduce the background and the experiment</li><li>How Tik Tok’s algorithm works</li><li>What are key issues with this algorithm</li></ul>"
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>Summarise the video ‘Can we build something better’. You should say:</p><ul><li>What is the topic?</li><li>What is the speaker’s main argument?</li><li>What does he suggest for the future?</li></ul>"
+    }
+  ]
+}
