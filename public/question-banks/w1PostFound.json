@@ -1,0 +1,15 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Chicken jalfrezi practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+        {
+      "id": "2-q1",
+      "type": "part2",
+      "text": "<p>Talk about a new sport or hobby you would like to take up. You should say:</p><ul><li>what it is</li><li>how you would start it</li><li>why you have not started it yet</li></ul><p>and explain what help you would need.</p>",
+      "optionalKeywords": ["because", "so", "for example", "and", "or", "but"]
+    }
+  ]
+}
