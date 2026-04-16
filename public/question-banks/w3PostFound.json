@@ -1,0 +1,33 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>I'm not big fan of playing football. I enjoy watching it on TV.</p>",
+      "keywords": ["but"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>Running is hurting my knees. I'm going to start swimming.</p>",
+      "keywords": ["so"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>I'd like to try extreme sports like rock climbing. I also want to try skydiving.</p>",
+      "keywords": ["and"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>I don't like going to the gym. It's boring to work out alone.</p>",
+      "keywords": ["because"]
+    }
+  ]
+}
