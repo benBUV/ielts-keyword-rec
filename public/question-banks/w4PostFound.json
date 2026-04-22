@@ -1,0 +1,16 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>You just saw a story about an old woman who was found playing video games. Retell the story and describe the details with the keywords below</p>",
+      "keywords": ["ninety one", "daily", "police", "beat", "score"],
+      "optionalKeywords": ["sweet", "old", "worrying", "humorous"]
+    }
+  ]
+}
