@@ -1,0 +1,14 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Retell the story from the image above</p>"
+    }
+  ]
+}
