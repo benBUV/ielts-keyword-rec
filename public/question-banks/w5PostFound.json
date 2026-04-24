@@ -1,0 +1,15 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Describe an exciting journey you once took. You should say:</p><ul><li>When and where did you go</li><li>What kind of transport you used</li><li>What happened on the journey</li><li>And explain what you remember most about the journey</li></ul>",
+      "optionalKeywords": ["first", "then", "after that", "finally", "but then", "in the end"]
+    }
+  ]
+}
