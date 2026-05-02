@@ -1,0 +1,14 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Describe a successful business in your country. You should say: </p><ul><li>what kind of business it is</li><li>what kind of people work there</li><li>why the business is successful</li><li>and explain whether you would like to work for that business or not.</li></ul>"
+    }
+  ]
+}
