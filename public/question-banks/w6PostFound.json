@@ -1,0 +1,14 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Describe a job that you would like to do for a day. You should say: </p><ul><li>what kind of job it is</li><li>What the daily responsibilities are</li><li>what characteristics you need for the job</li><li>and explain why you need for the job.</li></ul>"
+    }
+  ]
+}
