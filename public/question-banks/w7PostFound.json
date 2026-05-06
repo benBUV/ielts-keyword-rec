@@ -1,0 +1,30 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Join the sentences",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Talk about the video you just watched. What happened? Use the wh- questions to guide your talk and try to speak for two minutes.</p>",
+      "keywords": [
+  "infrastructure",
+  "2005",
+  "cars",
+  "homes",
+  "businesses",
+  "thousand",
+  "storm",
+  "soldiers",
+  "Southeast",
+  "Alicante",
+  "flood",
+  "millimeters",
+  "billions",
+  "Spain"
+]
+    }
+  ]
+}
