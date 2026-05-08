@@ -1,44 +1,65 @@
 {
-  "id": "practice definitions",
-  "name": "practice defs",
-  "description": "Description grammar",
+  "id": "part1_extension_choices",
+  "name": "Part 1 extension choices",
+  "description": "Students choose the best option to extend a simple IELTS Speaking Part 1 answer.",
   "author": "IELTS Practice Team",
   "version": "1.0",
   "questions": [
     {
       "id": "1-q1",
       "type": "part1",
-      "text": "<p>I really enjoy shopping at Covent Garden Market. It's very __________ because it isn't far from where I live.</p>\n<ol class=\"alpha-paren\">\n<li>expensive</li>\n<li>crowded</li>\n<li>convenient</li>\n<li>traditional</li>\n</ol>",
-      "keywords": ["convenient"],
-      "optionalKeywords": ["enjoy", "shopping", "Covent Garden Market", "very", "isn't far", "where I live"]
+      "text": "<p>I really enjoy shopping at the local market.</p><ol class=\"alpha-paren\"><li>It has lots of online discounts and home delivery services.</li><li>It has a lot of fresh fruit and vegetables like mangoes and bananas.</li></ol>",
+      "keywords": ["fresh fruit", "vegetables", "mangoes", "bananas"],
+      "optionalKeywords": ["local market", "shopping", "fresh food"]
     },
     {
       "id": "1-q2",
       "type": "part1",
-      "text": "<p>I love it because it has a ____________. It’s very lively, with musicians and street performers.</p>\n<ol class=\"alpha-paren\">\n<li>quiet space</li>\n<li>great atmosphere</li>\n<li>modern design</li>\n<li>small size</li>\n</ol>",
-      "keywords": ["great atmosphere"],
-      "optionalKeywords": ["love", "lively", "musicians", "street performers"]
+      "text": "<p>I like going to shopping centres at the weekend.</p><ol class=\"alpha-paren\"><li>There are lots of cafés and places to relax with friends.</li><li>People usually go there to grow vegetables and keep animals.</li></ol>",
+      "keywords": ["cafés", "friends", "relax"],
+      "optionalKeywords": ["shopping centres", "weekend", "hang out"]
     },
     {
       "id": "1-q3",
       "type": "part1",
-      "text": "<p>The prices are great. I usually find designer shoes at very ___________ prices.</p>\n<ol class=\"alpha-paren\">\n<li>high</li>\n<li>cheap</li>\n<li>reasonable</li>\n<li>fixed</li>\n</ol>",
-      "keywords": ["reasonable"],
-      "optionalKeywords": ["prices", "great", "designer shoes", "find"]
+      "text": "<p>I usually buy my clothes online. It’s easier to find cheaper prices.</p><ol class=\"alpha-paren\"><li>I buy a lot of shirts and t-shirts for example</li><li>For instance, the delivery takes a long time.</li></ol>",
+      "keywords": ["compare prices", "cheaper products"],
+      "optionalKeywords": ["clothes", "shirts"]
     },
     {
       "id": "1-q4",
       "type": "part1",
-      "text": "<p>This shop has an __________ of products. You can find almost anything you need there.</p>\n<ol class=\"alpha-paren\">\n<li>limited choice</li>\n<li>amazing selection</li>\n<li>high price</li>\n<li>small number</li>\n</ol>",
-      "keywords": ["amazing selection"],
-      "optionalKeywords": ["shop", "products", "almost anything", "need"]
+      "text": "<p>There’s a small café near my house that I really like.</p><ol class=\"alpha-paren\"><li>It sells car parts and electronic equipment.</li><li>The coffee is good and the staff are very friendly.</li></ol>",
+      "keywords": ["coffee", "friendly staff"],
+      "optionalKeywords": ["small café", "near my house"]
     },
     {
       "id": "1-q5",
       "type": "part1",
-      "text": "<p>The café is a bit __________, so not many people know about it.</p>\n<ol class=\"alpha-paren\">\n<li>in the centre</li>\n<li>easy to find</li>\n<li>out of the way</li>\n<li>very popular</li>\n</ol>",
-      "keywords": ["out of the way"],
-      "optionalKeywords": ["cafe", "not many people", "know about it"]
+      "text": "<p>I prefer shopping in supermarkets.</p><ol class=\"alpha-paren\"><li>You can buy almost everything you need in one place.</li><li>It has a foodcourt and fine dining options.</li></ol>",
+      "keywords": ["everything", "one place"],
+      "optionalKeywords": ["supermarkets", "shopping"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>I don’t enjoy shopping during busy times.</p><ol class=\"alpha-paren\"><li>The shops are crowded and it takes a long time to pay.</li><li>The weather is usually colder and snowy.</li></ol>",
+      "keywords": ["crowded", "long time"],
+      "optionalKeywords": ["busy times", "shopping"]
+    },
+    {
+      "id": "1-q7",
+      "type": "part1",
+      "text": "<p>I sometimes go to night markets with my friends.</p><ol class=\"alpha-paren\"><li>People mainly go there to study for exams quietly.</li><li>There’s a fun atmosphere with music and street food.</li></ol>",
+      "keywords": ["music", "street food", "fun atmosphere"],
+      "optionalKeywords": ["night markets", "friends"]
+    },
+    {
+      "id": "1-q8",
+      "type": "part1",
+      "text": "<p>I think online shopping is very convenient.</p><ol class=\"alpha-paren\"><li>I can order things from home without travelling anywhere.</li><li>I always get the wrong sized items.</li></ol>",
+      "keywords": ["order things", "from home"],
+      "optionalKeywords": ["online shopping", "convenient"]
     }
   ]
 }
