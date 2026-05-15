@@ -1,0 +1,51 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Chicken jalfrezi practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>I'm going to describe a dish I cook all the time. It's called chicken jalfrezi.</p>",
+      "media": "./videos/found/w4/Practice.mp4",
+      "optionalKeywords": ["describe", "dish", "cook", "time", "called", "chicken", "jalfrezi"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>It's made of chicken, chopped tomatoes, onion, garlic, and some Indian herbs.</p>",
+      "media": "./videos/found/w4/Practice1.mp4",
+      "optionalKeywords": ["made", "chicken", "chopped", "tomatoes", "onion", "garlic", "Indian", "herbs"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>To make this dish, first I chop the garlic, onions, herbs and green chilli.</p>",
+      "media": "./videos/found/w4/Practice2.mp4",
+      "optionalKeywords": ["make", "dish", "first", "chop", "garlic", "onions", "herbs", "green", "chilli"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>Listen and repeat.</p>",
+      "media": "./videos/found/w4/Practice3.mp4",
+      "optionalKeywords": ["next", "fry", "pan", "Indian", "spices"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>Listen and repeat.</p>",
+      "media": "./videos/found/w4/Practice4.mp4",
+      "optionalKeywords": ["then", "add", "chopped", "tomatoes", "simmer", "everything", "twenty", "minutes"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>Listen and repeat.</p>",
+      "media": "./videos/found/w4/Practice5.mp4",
+      "optionalKeywords": ["dish", "ready", "usually", "serve", "rice"]
+    }
+  ]
+}
