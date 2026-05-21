@@ -1,0 +1,15 @@
+{
+  "id": "part 2 test",
+  "name": "part 2 test",
+  "description": "w8 practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Describe this IELTS course. You should talk about:</p><ul><li>What new skills you learned</li><li>What you found easy of difficult</li><li>What was most useful about this course</li><li>And explain how you will apply what you learned</li></ul>",
+      "media": "./videos/5.5/w8/W8 Speaking Test Part 2 1080P.mp4"
+    }
+  ]
+}
