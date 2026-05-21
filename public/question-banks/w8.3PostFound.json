@@ -1,0 +1,15 @@
+{
+  "id": "part 2 test",
+  "name": "part 2 test",
+  "description": "w8 practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Do you think studying online is just as effective as sitting in a real university classroom?</p>",
+      "media": "./videos/5.5/w8/W8 Speaking Test Part 3 Q1.mp4"
+    }
+  ]
+}
