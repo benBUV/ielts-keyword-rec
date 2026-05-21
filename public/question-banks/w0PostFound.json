@@ -1,0 +1,27 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "w0 practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>What team sports do you like?</p>",
+      "media": "./videos/5.5/w0/q1.mp4"
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>What water sports do you like?</p>",
+      "media": "./videos/5.5/w0/q2.mp4"
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>What activities do you do in your free time?</p>",
+      "media": "./videos/5.5/w0/q3.mp4"
+    }
+  ]
+}
