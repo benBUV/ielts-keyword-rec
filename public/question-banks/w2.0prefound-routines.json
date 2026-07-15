@@ -1,0 +1,73 @@
+{
+  "id": "speak1",
+  "name": "speak and practice",
+  "description": "Week 2 part 1 practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  
+  {
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>What time do you usually get up?</p><p>I usually get up at about 7 am.</p><ol><li>I usually make dinner after work.</li><li>It gives me enough time to get ready before I leave.</li><li>I don't really like travelling in the evening.</li></ol>",
+      "keywords": ["get", "ready", "leave"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>Are you an early bird or a night owl?</p><p>I'm more of an early bird.</p><ol><li>I usually stay up late at weekends.</li><li>I feel more awake in the morning.</li><li>I don't drink coffee very often.</li></ol>",
+      "keywords": ["awake", "morning"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>What do you usually do after work or university?</p><p>I normally go straight home.</p><ol><li>I usually have something to eat and relax.</li><li>I don't mind getting up early.</li><li>I like living near the city centre.</li></ol>",
+      "keywords": ["eat", "relax"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>Do you have a regular daily routine?</p><p>Yes, I do.</p><ol><li>I usually do the same things every weekday.</li><li>I enjoy going out with my friends.</li><li>I don't cook very often.</li></ol>",
+      "keywords": ["same", "weekday"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>How do your weekends differ from your weekdays?</p><p>They're much more relaxed.</p><ol><li>I usually sleep a bit later and have more free time.</li><li>I often make breakfast before work.</li><li>I don't really enjoy shopping.</li></ol>",
+      "keywords": ["sleep", "later", "free"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>Do you usually cook at home?</p><p>Yes, I cook most evenings.</p><ol><li>It's cheaper than eating out.</li><li>I usually watch TV after dinner.</li><li>I like reading before I go to bed.</li></ol>",
+      "keywords": ["cheaper", "eating"]
+    },
+    {
+      "id": "1-q7",
+      "type": "part1",
+      "text": "<p>How often do you use the kitchen?</p><p>I use it every day.</p><ol><li>I usually make breakfast and dinner there.</li><li>I spend most evenings in my room.</li><li>I don't like washing my car.</li></ol>",
+      "keywords": ["breakfast", "dinner"]
+    },
+    {
+      "id": "1-q8",
+      "type": "part1",
+      "text": "<p>Do you prefer eating alone or with other people?</p><p>I prefer eating with other people.</p><ol><li>It's nicer because we can talk while we eat.</li><li>I usually cook rice at home.</li><li>I don't eat breakfast every day.</li></ol>",
+      "keywords": ["talk", "eat"]
+    },
+    {
+      "id": "1-q9",
+      "type": "part1",
+      "text": "<p>What do you usually do when you get home?</p><p>I usually have a shower first.</p><ol><li>Then I have something to eat.</li><li>I normally leave home at eight.</li><li>My favourite room is the kitchen.</li></ol>",
+      "keywords": ["eat", "then"]
+    },
+    {
+      "id": "1-q10",
+      "type": "part1",
+      "text": "<p>Do you spend much time in your room?</p><p>Yes, I do.</p><ol><li>I usually study or watch videos there.</li><li>I often meet my friends at weekends.</li><li>I like listening to music in the car.</li></ol>",
+      "keywords": ["study", "videos"]
+    }
+  ]
+}
+}
+
