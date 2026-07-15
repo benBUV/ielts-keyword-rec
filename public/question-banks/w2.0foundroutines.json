@@ -5,7 +5,6 @@
   "author": "IELTS Practice Team",
   "version": "1.0",
   
-  {
   "questions": [
     {
       "id": "1-q1",
@@ -68,6 +67,5 @@
       "keywords": ["study", "videos"]
     }
   ]
-}
 }
 
