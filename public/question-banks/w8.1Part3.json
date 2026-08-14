@@ -1,0 +1,28 @@
+{
+  "id": "speak1",
+  "name": "speak and practice",
+  "description": "Week 8 part 3 practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+
+  "questions": [
+    {
+      "id": "1-q2",
+      "type": "part2",
+      "text": "<p>Should the government give more money to zoos?</p>",
+      "optionalKeywords": ["In my opinion", "because", "for example", "such as", "so", "but"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part2",
+      "text": "<p>How might we be able to protect wildlife in the future?</p>",
+      "optionalKeywords": ["I think", "because", "for example", "such as", "so", "but"]
+    },
+        {
+      "id": "1-q2",
+      "type": "part2",
+      "text": "<p>Do children learn about animals differently now than before?</p>",
+      "optionalKeywords": ["I would say", "because", "for example", "such as", "so", "but"]
+    }
+  ]
+}
