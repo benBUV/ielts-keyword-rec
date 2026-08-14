@@ -1,0 +1,16 @@
+{
+  "id": "speak1",
+  "name": "speak and practice",
+  "description": "Week 8 part 2 practice",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+
+  "questions": [
+    {
+      "id": "1-q2",
+      "type": "part2",
+      "text": "<p>Describe an interesting animal</p><p>You should say:</p><ol><li>What it looks like.</li><li>Where it lives</li><li>What it eats.</li><li>Why you find it interesting.</li></ol>",
+      "optionalKeywords": ["To start with", "As for", "Moving on to", "Finally"]
+    }
+  ]
+}
