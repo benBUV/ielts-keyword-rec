@@ -1,0 +1,57 @@
+{
+  "id": "hometown v2",
+  "name": "hometown",
+  "description": "Questions about hometowns",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>1. What kind of weather do you usually have in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>2. What is one cultural tradition that is popular in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>3. Are there many good restaurants in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>4. Are there any interesting museums in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>5. What are the best places to go shopping in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q6",
+      "type": "part1",
+      "text": "<p>6. Is there a famous monument in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q7",
+      "type": "part1",
+      "text": "<p>7. What is the nightlife like in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q8",
+      "type": "part1",
+      "text": "<p>8. Are there many parks or green spaces in your hometown?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    }
+  ]
+}
