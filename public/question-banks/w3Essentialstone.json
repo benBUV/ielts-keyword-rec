@@ -1,0 +1,33 @@
+{
+  "id": "sport v1",
+  "name": "sport",
+  "description": "Questions about sports",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>What sport do you enjoy watching?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+{
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>Is there a sport you don't enjoy watching?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>Is there a sport you would like to try?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>Is there any sport you would never want to try?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example"]
+    }
+  ]
+}
