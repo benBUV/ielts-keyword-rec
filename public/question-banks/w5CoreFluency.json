@@ -1,0 +1,33 @@
+{
+  "id": "home v1",
+  "name": "home",
+  "description": "Questions about home and where you live",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>Where do you live?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example", "You know", "For instance", "That's why", "Well", "Basically", "I mean", "Anyway", "Actually", "To be honest", "In fact"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>What do you like about the place where you live?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example", "You know", "For instance", "That's why", "Well", "Basically", "I mean", "Anyway", "Actually", "To be honest", "In fact"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>Is there anything you don't like about where you live?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example", "You know", "For instance", "That's why", "Well", "Basically", "I mean", "Anyway", "Actually", "To be honest", "In fact"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>Would you like to live somewhere different in the future?</p>",
+      "optionalKeywords": ["so", "because", "and", "for example", "You know", "For instance", "That's why", "Well", "Basically", "I mean", "Anyway", "Actually", "To be honest", "In fact"]
+    }
+  ]
+}
