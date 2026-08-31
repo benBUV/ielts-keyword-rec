@@ -1,0 +1,59 @@
+{
+  "id": "w7",
+  "name": "Goo dbad",
+  "description": "discuss common issues and give your opinions",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "part3",
+      "text": "<p>What do you think is the biggest problem facing cities today?</p>"
+    },
+    {
+      "id": "q2",
+      "type": "part3",
+      "text": "<p>Do you think making mistakes is good or bad when learning a new skill?</p>"
+    },
+    {
+      "id": "q3",
+      "type": "part3",
+      "text": "<p>Can a small change in daily habits lead to a big improvement in a person's health?</p>"
+    },
+    {
+      "id": "q4",
+      "type": "part3",
+      "text": "<p>Why do some people prefer living in a small town rather than a big city?</p>"
+    },
+    {
+      "id": "q5",
+      "type": "part3",
+      "text": "<p>Do you think social media has a good or bad effect on how young people communicate?</p>"
+    },
+    {
+      "id": "q6",
+      "type": "part3",
+      "text": "<p>Do you think that watching television is generally good or bad for young children?</p>"
+    },
+    {
+      "id": "q7",
+      "type": "part3",
+      "text": "<p>What are the consequences of having a bad diet in modern society?</p>"
+    },
+    {
+      "id": "q8",
+      "type": "part3",
+      "text": "<p>Is it always a good idea to ask older people for advice about your career?</p>"
+    },
+    {
+      "id": "q9",
+      "type": "part3",
+      "text": "<p>Why do some people think that owning a car is a bad thing for the environment?</p>"
+    },
+    {
+      "id": "q10",
+      "type": "part3",
+      "text": "<p>Do you think that competition between students is a good thing for their development?</p>"
+    }
+  ]
+}
