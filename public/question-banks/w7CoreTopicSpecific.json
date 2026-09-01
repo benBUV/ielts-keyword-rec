@@ -1,0 +1,34 @@
+{
+  "id": "w8",
+  "name": "Rural to Urban",
+  "description": "discuss rural-to-urban migration and the future of cities",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "part3",
+      "text": "<p>What are some of the main reasons why people choose to move from rural areas to cities?</p>"
+    },
+    {
+      "id": "q2",
+      "type": "part3",
+      "text": "<p>In what ways does living in a city differ significantly from living in the countryside?</p>"
+    },
+    {
+      "id": "q3",
+      "type": "part3",
+      "text": "<p>Do you think governments should encourage people to stay in rural areas, or even move back to them?</p>"
+    },
+    {
+      "id": "q4",
+      "type": "part3",
+      "text": "<p>Do you believe that living in a city makes people more competitive or more isolated?</p>"
+    },
+    {
+      "id": "q5",
+      "type": "part3",
+      "text": "<p>Looking into the future, what do you think cities will look like in 50 years' time, given the current trends in urbanization?</p>"
+    }
+  ]
+}
