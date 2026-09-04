@@ -1,0 +1,34 @@
+{
+  "id": "w2",
+  "name": "Studies and School",
+  "description": "discuss education, studying, and school life",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "part3",
+      "text": "<p>Do you think students today have more pressure at school than students in the past?</p>"
+    },
+    {
+      "id": "q2",
+      "type": "part3",
+      "text": "<p>What subjects do you think are most useful for students to study?</p>"
+    },
+    {
+      "id": "q3",
+      "type": "part3",
+      "text": "<p>Do you think schools should focus more on practical skills or academic subjects?</p>"
+    },
+    {
+      "id": "q4",
+      "type": "part3",
+      "text": "<p>How has technology changed the way students study?</p>"
+    },
+    {
+      "id": "q5",
+      "type": "part3",
+      "text": "<p>Do you think students learn better when they study alone or with other students?</p>"
+    }
+  ]
+}
