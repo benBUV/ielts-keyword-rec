@@ -23,21 +23,24 @@
       }
     },
     {
+      "id": "q1",
+      "type": "part3",
+      "text": "<p>Why do you think some people are kinder than others?</p>"
+    },
+    {
       "id": "q2",
-      "type": "part2",
-      "text": "Describe a member of your family you get on well with.",
-      "media": "./videos/core/w2/w2.2.mp4",
-      "speakingDuration": 120,
-      "card": {
-        "title": "Describe a member of your family you get on well with.",
-        "subtitle": "You should say:",
-        "bullets": [
-          "who it is and what relationship you have with this person",
-          "what they are like",
-          "what you do together",
-          "explain why you get on so well"
-        ]
-      }
-    }
+      "type": "part3",
+      "text": "<p>Whose responsibility is it to teach children the value of kindness: parents, schools, or society as a whole?</p>"
+    },
+    {
+      "id": "q3",
+      "type": "part3",
+      "text": "<p>Has modern life made people less willing to help each other?</p>"
+    },
+    {
+      "id": "q4",
+      "type": "part3",
+      "text": "<p>Do you believe that people are ever truly selfless when they help others, or is there always some personal benefit involved?</p>"
+    }   
   ]
 }
