@@ -1,0 +1,39 @@
+{
+  "id": "internationalization networks v1",
+  "name": "Internationalization and Business Networks",
+  "description": "Questions about internationalization, technology, and business networks",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part1",
+      "text": "<p>1. Often in certain industries, actually entrepreneurs find it more worthwhile to cater to customers overseas because it's more lucrative.</p>",
+      "keywords": ["Catering to foreign markets"]
+    },
+    {
+      "id": "1-q2",
+      "type": "part1",
+      "text": "<p>2. Networks of companies, orchestrated by technology giants like Microsoft and IBM and Google, are growing because large companies know they can't do everything themselves.</p>",
+      "keywords": ["Technology is facilitating the growth"]
+    },
+    {
+      "id": "1-q3",
+      "type": "part1",
+      "text": "<p>3. When entrepreneurs think of their resources not merely in terms of what they themselves possess but what they can access through their networks, then very often they're able to think big and come up with strategies for doing things which are highly resourceful.</p>",
+      "keywords": ["Internationalization can be achieved"]
+    },
+    {
+      "id": "1-q4",
+      "type": "part1",
+      "text": "<p>4. The problem with diaspora networks is that because everybody knows everybody else beyond a point, you may not be getting a lot of new opportunities, a lot of new ideas.</p>",
+      "keywords": ["A key limitation of community networks is"]
+    },
+    {
+      "id": "1-q5",
+      "type": "part1",
+      "text": "<p>5. That's when it becomes important for entrepreneurs to go beyond their comfort zone, to be able to seek other kinds of relationships.</p>",
+      "keywords": ["It’s crucial for entrepreneurs to find"]
+    }
+  ]
+}
