@@ -1,0 +1,29 @@
+{
+  "id": "born-global-discussion-v1",
+  "name": "Born Global Companies Discussion",
+  "description": "Part 3 discussion questions about startups, international expansion, technology, and business networks",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "3-q1",
+      "type": "part3",
+      "text": "<p>1. To what extent has digital technology made it easier for small startups to compete with large multinational corporations?</p>"
+    },
+    {
+      "id": "3-q2",
+      "type": "part3",
+      "text": "<p>2. Some people believe that personal connections and cultural ties are more important for a new business than having formal legal contracts. Do you agree or disagree?</p>"
+    },
+    {
+      "id": "3-q3",
+      "type": "part3",
+      "text": "<p>3. What do you think are the main challenges a company might face when it tries to expand from a familiar local market into a completely unfamiliar foreign market?</p>"
+    },
+    {
+      "id": "3-q4",
+      "type": "part3",
+      "text": "<p>4. Do you think that in the future, all successful businesses will need to operate internationally from the very beginning, or will there always be a strong place for strictly local companies?</p>"
+    }
+  ]
+}
