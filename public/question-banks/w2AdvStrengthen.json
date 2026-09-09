@@ -1,0 +1,81 @@
+{
+  "id": "w3",
+  "name": "Strengthening and Weakening Tone",
+  "description": "practise changing the strength of claims by choosing language that makes a statement weaker or stronger",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "tone",
+      "text": "<p>Strengthen the tone:</p><p>The data shows that customers prefer ethical brands.</p><p><strong>Wordbank:</strong> may / proves / genuinely / indicates</p>",
+      "keywords": [
+        "proves",
+        "genuinely"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "tone",
+      "text": "<p>Strengthen the tone:</p><p>This shows that the marketing strategy is ineffective.</p><p><strong>Wordbank:</strong> clearly / suggests / may / demonstrates</p>",
+      "keywords": [
+        "clearly",
+        "demonstrates"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "tone",
+      "text": "<p>Strengthen the tone:</p><p>Transparency builds trust with customers.</p><p><strong>Wordbank:</strong> may / significant / a degree of / always</p>",
+      "keywords": [
+        "always",
+        "significant"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "tone",
+      "text": "<p>Strengthen the tone:</p><p>We need to reduce waste.</p><p><strong>Wordbank:</strong> should / must / consider / immediately</p>",
+      "keywords": [
+        "must",
+        "immediately"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "tone",
+      "text": "<p>Weaken the tone:</p><p>The data shows that customers prefer ethical brands.</p><p><strong>Wordbank:</strong> may / proves / genuinely / indicates</p>",
+      "keywords": [
+        "may",
+        "indicates"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "tone",
+      "text": "<p>Weaken the tone:</p><p>This shows that the marketing strategy is ineffective.</p><p><strong>Wordbank:</strong> clearly / suggests / may / demonstrates</p>",
+      "keywords": [
+        "suggests",
+        "may"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "tone",
+      "text": "<p>Weaken the tone:</p><p>Transparency builds trust with customers.</p><p><strong>Wordbank:</strong> may / significant / a degree of / always</p>",
+      "keywords": [
+        "may",
+        "a degree of"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "tone",
+      "text": "<p>Weaken the tone:</p><p>We need to reduce waste.</p><p><strong>Wordbank:</strong> should / must / consider / immediately</p>",
+      "keywords": [
+        "should",
+        "consider"
+      ]
+    }
+  ]
+}
