@@ -8,64 +8,76 @@
     {
       "id": "q1",
       "type": "tone",
-      "text": "<p>Strengthen the tone:</p><p>The data shows that customers prefer ethical brands.</p><p><strong>Wordbank:</strong> may / proves / genuinely / indicates</p>",
+      "text": "<p>Strengthen the tone:</p><p>The data shows that customers prefer ethical brands.</p><p><strong>Wordbank:</strong> may / prove / genuinely / indicate</p>",
       "keywords": [
-        "proves",
         "genuinely"
+      ],
+      "optionalKeywords": [
+        "prove",
+        "proves"
       ]
     },
     {
       "id": "q3",
       "type": "tone",
-      "text": "<p>Strengthen the tone:</p><p>This shows that the marketing strategy is ineffective.</p><p><strong>Wordbank:</strong> clearly / suggests / may / demonstrates</p>",
+      "text": "<p>Strengthen the tone:</p><p>This shows that the marketing strategy is ineffective.</p><p><strong>Wordbank:</strong> clearly / suggest / may / demonstrate</p>",
       "keywords": [
-        "clearly",
+        "clearly"
+      ],
+      "optionalKeywords": [
+        "demonstrate",
         "demonstrates"
       ]
     },
     {
       "id": "q5",
       "type": "tone",
-      "text": "<p>Strengthen the tone:</p><p>Transparency builds trust with customers.</p><p><strong>Wordbank:</strong> may / significant / a degree of / always</p>",
+      "text": "<p>Strengthen the tone:</p><p>Transparency builds trust with customers.</p><p><strong>Wordbank:</strong> may / significantly / a degree of / always</p>",
       "keywords": [
         "always",
-        "significant"
-      ]
+        "significantly"
+      ],
+      "optionalKeywords": []
     },
     {
       "id": "q7",
       "type": "tone",
       "text": "<p>Strengthen the tone:</p><p>We need to reduce waste.</p><p><strong>Wordbank:</strong> should / must / consider / immediately</p>",
       "keywords": [
-        "must",
-        "immediately"
+        "immediately",
+        "must"
+      ],
+      "optionalKeywords": [
+
       ]
     },
     {
       "id": "q2",
       "type": "tone",
-      "text": "<p>Weaken the tone:</p><p>The data shows that customers prefer ethical brands.</p><p><strong>Wordbank:</strong> may / proves / genuinely / indicates</p>",
-      "keywords": [
-        "may",
+      "text": "<p>Weaken the tone:</p><p>The data shows that customers prefer ethical brands.</p><p><strong>Wordbank:</strong> may / prove / genuinely / indicate</p>",
+      "keywords": ["may"],
+      "optionalKeywords": [
+        "indicate",
         "indicates"
       ]
     },
     {
       "id": "q4",
       "type": "tone",
-      "text": "<p>Weaken the tone:</p><p>This shows that the marketing strategy is ineffective.</p><p><strong>Wordbank:</strong> clearly / suggests / may / demonstrates</p>",
-      "keywords": [
-        "suggests",
-        "may"
+      "text": "<p>Weaken the tone:</p><p>This shows that the marketing strategy is ineffective.</p><p><strong>Wordbank:</strong> clearly / suggest / may / demonstrate</p>",
+      "keywords": ["may"],
+      "optionalKeywords": [
+        "suggest",
+        "suggests"
       ]
     },
     {
       "id": "q6",
       "type": "tone",
-      "text": "<p>Weaken the tone:</p><p>Transparency builds trust with customers.</p><p><strong>Wordbank:</strong> may / significant / a degree of / always</p>",
+      "text": "<p>Weaken the tone:</p><p>Transparency builds trust with customers.</p><p><strong>Wordbank:</strong> may / significantly / a degree of / always</p>",
       "keywords": [
-        "may",
-        "a degree of"
+        "a degree of",
+        "may"
       ]
     },
     {
@@ -73,8 +85,10 @@
       "type": "tone",
       "text": "<p>Weaken the tone:</p><p>We need to reduce waste.</p><p><strong>Wordbank:</strong> should / must / consider / immediately</p>",
       "keywords": [
-        "should",
-        "consider"
+        "consider",
+        "should"
+      ],
+      "optionalKeywords": [
       ]
     }
   ]
