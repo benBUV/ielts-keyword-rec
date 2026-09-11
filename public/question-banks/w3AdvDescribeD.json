@@ -1,0 +1,15 @@
+{
+  "id": "listen and summarise",
+  "name": "listen and summarise",
+  "description": "Dieter Dengler",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "1-q1",
+      "type": "part2",
+      "media": "./videos/advanced/dieter-clip.mp4",
+      "text": "<p>Describe Dieter, noting the talking points above.</p>"
+    }
+  ]
+}

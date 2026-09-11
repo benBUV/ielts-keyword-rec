@@ -1,0 +1,14 @@
+{
+  "id": "presentations",
+  "name": "w3 pres",
+  "description": "Herzog reflection",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "p2",
+      "type": "presentation",
+      "text": "<p>Herzog staged the door-checking scene in Little Dieter Needs to Fly because it represented the psychological truth of Dengler's trauma, even though it never actually happened. Based on what you have read argument about transparency and ethical documentary practices, is this acceptable? Why or why not?</p>"
+    }
+  ]
+}
