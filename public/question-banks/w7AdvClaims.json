@@ -8,8 +8,8 @@
     {
       "id": "p2",
       "type": "presentation",
-      "text": "<p>Which claim, above, is stronger? Speak for 30 seconds and explain why it is stronger (fact vs. opinion), and point to one language clue (e.g., “studies show” vs. “I just think”).</p><p>Start your answer with the phrase, 'The stronger claim is claim 1 / 2'</p>",
-      "keywords": ["the stronger claim is claim two"]
+      "text": "<p>Which claim, above, is stronger? Speak for 30 seconds and explain why it is stronger (fact vs. opinion), and point to one language clue (e.g., “studies show” vs. “I just think”).</p><p>Start your answer with the phrase, 'The first/second claim is the strongest'</p>",
+      "keywords": ["the second claim is the strongest"]
     }
   ]
 }
