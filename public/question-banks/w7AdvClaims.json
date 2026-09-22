@@ -1,0 +1,14 @@
+{
+  "id": "presentations",
+  "name": "w3 pres",
+  "description": "Herzog reflection",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "p2",
+      "type": "presentation",
+      "text": "<p>Which claim, above, is stronger? Speak for 30 seconds and explain why it is stronger (fact vs. opinion), and point to one language clue (e.g., “studies show” vs. “I just think”).</p>"
+    }
+  ]
+}
