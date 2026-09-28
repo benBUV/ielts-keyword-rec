@@ -1,24 +1,24 @@
 {
   "id": "listen and summarise",
   "name": "listen and summarise",
-  "description": "Chicken jalfrezi practice",
+  "description": "About the lecture",
   "author": "IELTS Practice Team",
   "version": "1.0",
   "questions": [
     {
       "id": "1-q1",
       "type": "part1",
-      "text": "<p>Search and filter bubbles:</p><ul><li>Homophily = human flocking</li><li>Can separate us from diverse info / perspectives</li><li>Internet / social search  = what we want &rarr; &darr; challenge / diversity</li></ul>"
+      "text": "<p><strong>Human behaviour:</strong></p><ul><li>Homophily = humans tend to flock</li><li>We look for people like us</li></ul>"
     },
     {
       "id": "1-q2",
       "type": "part1",
-      "text": "<p>Summarise the video ‘How Tik Tok’s algorithm figures you out’. You should say:</p><ul><li>Introduce the background and the experiment</li><li>How Tik Tok’s algorithm works</li><li>What are key issues with this algorithm</li></ul>"
+      "text": "<p><strong>Danger of bubbles:</strong></p><ul><li>Internet tools give us exactly what we want</li><li>Danger = &darr; cognitive diversity</li><li>Social search = filtered results</li><li>Same people / ideas over and over</li></ul>"
     },
     {
       "id": "1-q3",
       "type": "part1",
-      "text": "<p>Summarise the video ‘Can we build something better’. You should say:</p><ul><li>What is the topic?</li><li>What is the speaker’s main argument?</li><li>What does he suggest for the future?</li></ul>"
+      "text": "<p><strong>Structural holes / good ideas:</strong></p><ul><li>Ronald Burt - VP at Raytheon</li><li>Asked all employees for ideas (survey)</li><li>Best ideas from people who bridged / connected social networks</li><li>eg offices in different areas of country</li><li>Creativity = import / export?</li><li>Bring ideas from one place into a new context</li></ul>"
     }
   ]
 }
