@@ -1,0 +1,15 @@
+{
+  "id": "presentations",
+  "name": "w6 pres",
+  "description": "Summarise the text and graph",
+  "author": "IELTS Practice Team",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "p2",
+      "type": "presentation",
+      "text": "<p>Summarise the text and graph, above. Integrate the specific details from the graph with the statement, including the keywords below.</p>",
+      "keywords": ["eleven", "three", "nine", "two", "summer", "winter", "suggests"]
+    }
+  ]
+}
